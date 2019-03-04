@@ -14,7 +14,7 @@ LDSSA's [Teaching Philosophy](https://github.com/LDSSA/wiki/wiki/Teaching-Philos
 
 We use the [GitHub flow](https://guides.github.com/introduction/flow/).
 
-1. Create a new branch, following the convention `ISSUE_NUMBER/ISSUE_TITLE` when naming the branch)
+1. Create a new branch, following the naming convention `ISSUE_NUMBER/ISSUE_TITLE`
 2. Update the file(s) with the proposed changes
 3. Commit the proposed changes
 4. Open a Pull Request to discuss the changes
@@ -26,12 +26,14 @@ We use the [GitHub flow](https://guides.github.com/introduction/flow/).
 2. Reviews by Teaching, Quality Assurance, and Student Success are optional but encouraged
 3. Final approval by the Curriculum Development team (merge and close the issue, notify on `#curriculum`).
 
-For Specializations with Leads assigned, further curriculum changes need to be approved by the Specialization Lead.
+For Specializations with a Lead assigned, further changes need to be approved by the Specialization Lead.
 
 # Curriculum Development Team
 
 * João Ascensão (@jtascensao)
 * Pedro Fonseca (@PedroGfonseca)
+
+# Specialization Leads
 
 # Milestones (Batch 3)
 
