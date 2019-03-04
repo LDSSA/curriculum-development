@@ -33,6 +33,8 @@ For Specializations with a Lead assigned, further curriculum changes need to be 
 * João Ascensão (@jtascensao)
 * Pedro Fonseca (@PedroGfonseca)
 
+# Specialization Leads
+
 # Milestones (Batch 3)
 
 **Submit ideas before the 18th of March.**
