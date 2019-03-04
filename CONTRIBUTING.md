@@ -1,8 +1,6 @@
 # Contributing
 
-When contributing to this repository, please discuss the change via [issue](https://github.com/LDSSA/curriculum-development/issues).
-
-Alternatively, raise the topic in the `#curriculum` Slack channel.
+When contributing to this repository, please start by discussing the change via [issue](https://github.com/LDSSA/curriculum-development/issues) or in the `#curriculum` Slack channel.
 
 # Code of Conduct
 
@@ -26,9 +24,9 @@ We use the [GitHub flow](https://guides.github.com/introduction/flow/).
 
 1. Anyone on `#curriculum` can discuss, review, or upvote/downvote Pull Requests
 2. Reviews by Teaching, Quality Assurance, and Student Success are optional but encouraged
-3. Final approval by the Curriculum Development team (merge and close the issue).
+3. Final approval by the Curriculum Development team (merge and close the issue, notify on `#curriculum`).
 
-For Specializations with Leads assigned, curriculum changes need to be approved by the Specialization Lead.
+For Specializations with Leads assigned, further curriculum changes need to be approved by the Specialization Lead.
 
 # Curriculum Development Team
 
@@ -41,7 +39,9 @@ For Specializations with Leads assigned, curriculum changes need to be approved 
 
 New discussions after these dates will be considered for the next Batch.
 
-| Date                                              | Milestone                  | Enabler     |
+Find the important dates for Curriculum Development below.
+
+| Deadline                                          | Milestone                  | Enabler     |
 |---------------------------------------------------|----------------------------|-------------|
 | 15th March                                        | Call for ideas             | @jtascensao |
 | 18th March                                        | Curriculum first draft     | @jtascensao |
