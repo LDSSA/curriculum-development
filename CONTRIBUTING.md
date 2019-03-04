@@ -26,7 +26,7 @@ We use the [GitHub flow](https://guides.github.com/introduction/flow/).
 2. Reviews by Teaching, Quality Assurance, and Student Success are optional but encouraged
 3. Final approval by the Curriculum Development team (merge and close the issue, notify on `#curriculum`).
 
-For Specializations with Leads assigned, further curriculum changes need to be approved by the Specialization Lead.
+For Specializations with a Lead assigned, further curriculum changes need to be approved by the Specialization Lead.
 
 # Curriculum Development Team
 
