@@ -14,7 +14,7 @@ LDSSA's [Teaching Philosophy](https://github.com/LDSSA/wiki/wiki/Teaching-Philos
 
 We use the [GitHub flow](https://guides.github.com/introduction/flow/).
 
-1. Create a new branch, following the convention `ISSUE_NUMBER/ISSUE_TITLE` when naming the branch)
+1. Create a new branch, following the naming convention `ISSUE_NUMBER/ISSUE_TITLE`
 2. Update the file(s) with the proposed changes
 3. Commit the proposed changes
 4. Open a Pull Request to discuss the changes
