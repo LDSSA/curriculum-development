@@ -18,13 +18,13 @@ We use the [GitHub flow](https://guides.github.com/introduction/flow/).
 2. Update the file(s) with the proposed changes
 3. Commit the proposed changes
 4. Open a Pull Request to discuss the changes
-5. Notify the `#curriculum` Slack channel to trigger the approval process.
+5. ~~Notify the `#curriculum` Slack channel to trigger the approval process~~.
 
 # Approval Process
 
 1. Anyone on `#curriculum` can discuss, review, or upvote/downvote Pull Requests
 2. Reviews by Teaching, Quality Assurance, and Student Success are optional but encouraged
-3. Final approval by the Curriculum Development team (merge and close the issue, notify on `#curriculum`).
+3. Final approval by the Curriculum Development team (merge and close the issue, ~~notify on `#curriculum`~~).
 
 For Specializations with a Lead assigned, further changes need to be approved by the Specialization Lead.
 
