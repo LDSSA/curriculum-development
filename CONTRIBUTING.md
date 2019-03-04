@@ -1,6 +1,6 @@
 # Contributing
 
-Please start by discussing the change via [issue](https://github.com/LDSSA/curriculum-development/issues) or in the `#curriculum` Slack channel.
+Please start by discussing the change via [issue](https://github.com/LDSSA/curriculum-development/issues).
 
 # Code of Conduct
 
