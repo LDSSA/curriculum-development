@@ -1,5 +1,7 @@
 # Title
 
+> Make sure you use a descriptive subject line and the appropriate tags.
+
 ## Context
 
 > Why is the change or addition important?

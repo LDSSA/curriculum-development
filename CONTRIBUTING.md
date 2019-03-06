@@ -36,7 +36,7 @@ For Specializations with a Lead assigned, further changes need to be approved by
 
 # Milestones (Batch 3)
 
-**Submit ideas before the 18th of March.**
+**Submit ideas before the 15th of March.**
 
 New discussions after these dates will be considered for the next Batch.
 

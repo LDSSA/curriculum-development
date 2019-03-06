@@ -1,4 +1,8 @@
+> Use a descriptive subject and the prefixes WIP and RFC for state.
+
 Closes
+
+> Mention the issues this PR addresses above, example: Closes #1, #2
 
 # Title
 
