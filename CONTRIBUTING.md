@@ -1,16 +1,28 @@
-# Contributing
+Contributing Guidelines
+=================
 
-Please start by discussing the change via [issue](https://github.com/LDSSA/curriculum-development/issues).
+1. [Code of Conduct](#code-of-conduct)
+2. [Teaching Philosophy](#teaching-philosophy)
+3. [Contributing](#contributing)
+  1. [Pull Request Process](#pull-request-process)
+  2. [Approval Process](#approval-process)
+  3. [Specialization Leads](#specialization-leads)
+4. [Milestones](#milestones)
+5. [Curriculum Team](#curriculum-development-team)
 
-# Code of Conduct
+## Code of Conduct
 
 LDSSA's [Code of Conduct](https://github.com/LDSSA/wiki/wiki/Code-of-Conduct).
 
-# Teaching Philosophy
+## Teaching Philosophy
 
 LDSSA's [Teaching Philosophy](https://github.com/LDSSA/wiki/wiki/Teaching-Philosophy).
 
-# Pull Request Process
+## Contributing
+
+Please start by discussing the change via [issue](https://github.com/LDSSA/curriculum-development/issues).
+
+### Pull Request Process
 
 We use the [GitHub flow](https://guides.github.com/introduction/flow/).
 
@@ -19,22 +31,24 @@ We use the [GitHub flow](https://guides.github.com/introduction/flow/).
 3. Commit the proposed changes
 4. Open a Pull Request to discuss the changes.
 
-# Approval Process
+### Approval Process
 
 1. Anyone on `#curriculum` can discuss, review, or upvote/downvote Pull Requests
 2. Reviews by Teaching, Quality Assurance, and Student Success are optional but encouraged
 3. Final approval by the Curriculum Development team (merge to master and close the issue).
 
-For Specializations with a Lead assigned, further changes need to be approved by the Specialization Lead.
+### Specialization Leads
 
-# Curriculum Development Team
+Specialization Leads are responsible for refining the curriculum, as follows:
 
-* João Ascensão (@jtascensao)
-* Pedro Fonseca (@PedroGfonseca)
+1. The Curriculum Team develops a detailed draft of the Specialization's curriculum
+2. Leads are assigned to Specializations, in accordance with the curriculum
+3. The curriculum is a contract that is binding for the Lead and the Curriculum Team
+4. From the assignment onwards, Leads also need to approve contract changes
+5. The Specialization Leads refine the curriculum
+6. Refinements need to be approved by the Curriculum Team **until 6 weeks before the start of the Specialization**.
 
-# Specialization Leads
-
-# Milestones (Batch 3)
+## Milestones
 
 **Submit ideas before the 15th of March.**
 
@@ -48,3 +62,10 @@ Find the important dates for Curriculum Development below.
 | 18th March                                        | Curriculum first draft     | @jtascensao |
 | 31st March                                        | Close curriculum           | @jtascensao |
 | 6 weeks before the start of each Specialization   | Submit detailed curriculum | Specialization Leads |
+
+## Curriculum Team
+
+| Team Member   | Email                                        |
+|---------------|----------------------------------------------|
+| João Ascensão (@jtascensao) | ascensao@lisbondatascience.org |
+| Pedro Fonseca (@PedroGfonseca) | pedro@lisbondatascience.org  |
