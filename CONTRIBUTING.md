@@ -45,8 +45,8 @@ Specialization Leads are responsible for refining the curriculum, as follows:
 2. Leads are assigned to Specializations, in accordance with the defined curriculum
 3. The curriculum is a "contract" that is binding for the Lead and the Curriculum Team
 4. From the assignment onwards, Leads also need to approve changes
-5. Specialization Leads can refine the curriculum
-6. Refinements are approved by the Curriculum Team **until 6 weeks before the start of the Specialization**.
+5. Specialization Leads refine the curriculum
+6. Refinements approved by the Curriculum Team **until 6 weeks** before the start of the Specialization.
 
 ## Milestones
 
