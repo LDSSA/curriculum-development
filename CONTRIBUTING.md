@@ -4,11 +4,11 @@ Contributing Guidelines
 1. [Code of Conduct](#code-of-conduct)
 2. [Teaching Philosophy](#teaching-philosophy)
 3. [Contributing](#contributing)
-  1. [Pull Request Process](#pull-request-process)
-  2. [Approval Process](#approval-process)
-  3. [Specialization Leads](#specialization-leads)
-4. [Milestones](#milestones)
-5. [Curriculum Team](#curriculum-development-team)
+4. [Pull Request Process](#pull-request-process)
+5. [Approval Process](#approval-process)
+6. [Specialization Leads](#specialization-leads)
+7. [Milestones](#milestones)
+8. [Curriculum Team](#curriculum-development-team)
 
 ## Code of Conduct
 
@@ -22,7 +22,7 @@ LDSSA's [Teaching Philosophy](https://github.com/LDSSA/wiki/wiki/Teaching-Philos
 
 Please start by discussing the change via [issue](https://github.com/LDSSA/curriculum-development/issues).
 
-### Pull Request Process
+## Pull Request Process
 
 We use the [GitHub flow](https://guides.github.com/introduction/flow/).
 
@@ -31,22 +31,22 @@ We use the [GitHub flow](https://guides.github.com/introduction/flow/).
 3. Commit the proposed changes
 4. Open a Pull Request to discuss the changes.
 
-### Approval Process
+## Approval Process
 
 1. Anyone on `#curriculum` can discuss, review, or upvote/downvote Pull Requests
 2. Reviews by Teaching, Quality Assurance, and Student Success are optional but encouraged
 3. Final approval by the Curriculum Development team (merge to master and close the issue).
 
-### Specialization Leads
+## Specialization Leads
 
 Specialization Leads are responsible for refining the curriculum, as follows:
 
 1. The Curriculum Team develops a detailed draft of the Specialization's curriculum
-2. Leads are assigned to Specializations, in accordance with the curriculum
-3. The curriculum is a contract that is binding for the Lead and the Curriculum Team
-4. From the assignment onwards, Leads also need to approve contract changes
-5. The Specialization Leads refine the curriculum
-6. Refinements need to be approved by the Curriculum Team **until 6 weeks before the start of the Specialization**.
+2. Leads are assigned to Specializations, in accordance with the defined curriculum
+3. The curriculum is a "contract" that is binding for the Lead and the Curriculum Team
+4. From the assignment onwards, Leads also need to approve changes
+5. Specialization Leads can refine the curriculum
+6. Refinements are approved by the Curriculum Team **until 6 weeks before the start of the Specialization**.
 
 ## Milestones
 
