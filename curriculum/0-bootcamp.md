@@ -1,16 +1,15 @@
 Bootcamp
 ========
 
-1. [Structure](#structure)
-2. [Pandas 101](#pandas-101)
-3. [Subsetting data](#subsetting-data)
-
-## Structure
-
-| SLU   | Name            | Lead  |
-|-------|-----------------|-------|
-| SLU01 | Pandas 101      | TBD   |
-| SLU02 | Subsetting data | TBD   |
+| SLU   | Name                                      | Lead  |
+|-------|-------------------------------------------|-------|
+| SLU01 | [Pandas 101](#pandas-101)                 | TBD   |
+| SLU02 | [Subsetting data](#subsetting-data)       | TBD   |
+| SLU03 | [Transforming Data](#transforming-data)   | TBD   |
+| SLU04 | [Data Visualization](#data-visualization) | TBD   |
+| SLU05 | [Basic Stats](#basic-stats)               | TBD   |
+| SLU06 | [Intermediate Stats](#intermediate-stats) | TBD   |
+| SLU07 | [Advanced Stats](#advanced-stats)         | TBD   |
 
 ## Pandas 101
 
@@ -73,3 +72,99 @@ Bootcamp
     2. `select_dtypes`
 9. `nlargest`
 10. `nsmallest`
+
+## Transforming Data
+
+1. `pd.DataFrame.drop(labels=)`
+2. `pd.DataFrame.drop(columns=)`
+3. `pd.DataFrame.drop(inplace=)`
+4. `pd.DataFrame.copy`
+5. Mathematical operations
+6. `pd.DataFrame.groupby`
+7. `GroupBy.groups`
+8. `GroupBy.size`
+9. `GroupBy.agg`
+10. `pd.concat`
+11. `pd.DataFrame.sort_index`
+12. `pd.DataFrame.reset_index`
+13. `pd.DataFrame.set_index`
+14. `pd.DataFrame.sort_values`
+
+## Data Visualization
+
+1. `pd.DataFrame.hist`
+2. `pd.DataFrame.boxplot`
+3. `pd.DataFrame.plot`
+4. `pd.DataFrame.plot(kind=)`
+4. `pd.DataFrame.plot.scatter`
+5. `pd.DataFrame.plot.barh`
+6. `plt.style.available`
+7. `plt.style.use`
+8. `plt.legend`
+9. `plt.title`
+10. `plt.ylim`
+11. `plt.xlabel`
+12. `plt.ylabel`
+13. `plt.figtext`
+
+## Basic Stats
+
+1. ~~Numpy~~
+2. `utils`
+3. `pd.Series.mode`
+4. `pd.Series.mean`
+5. `pd.Series.median`
+6. `pd.Series.var`
+7. `pd.Series.std`
+8. `pd.Series.quantile`
+9. `pd.crosstab`
+10. `pd.crosstab(margins=True)`
+11. `pd.Series.unique`
+12. `pd.Series.max`
+13. `pd.Series.idxmax`
+14. `pd.Series.min`
+15. `pd.Series.idxmin`
+
+## Intermediate Stats
+
+1. Covariance
+2. `pd.Series.cov`
+3. Correlation
+4. `pd.Series.corr`
+5. Pearson correlation
+6. Spearman correlation
+7. `pd.DataFrame.rank`
+8. `pd.Series.corr(method=)`
+9. Correlation matrix
+10. `seaborn`
+11. `sns.heatmap`
+12. Spurious correlations
+13. Observation data
+14. Experimental data
+15. Confounding variables
+
+## Advanced Stats
+
+1. `numpy`
+2. `scipy.stats`
+3. Normal distribution
+4. `stats.norm.rvs`
+6. `stats.norm.cdf`
+8. `stats.norm.ppf`
+9. `stats.norm.pdf`
+10. Binomial distribution
+4. `stats.binom.rvs`
+6. `stats.binom.cdf`
+8. `stats.binom.ppf`
+9. `stats.binom.pdf`
+10. Geometric distribution
+11. Exponential distribution
+12. Poisson distribution
+13. Sample mean
+14. `.sample()`
+15. `np.random.seed`
+16. `np.random.choice`
+17. Confidence intervals
+18. Hypothesis testing
+20. `stats.ttest_1samp`
+21. `stats.chisquare`
