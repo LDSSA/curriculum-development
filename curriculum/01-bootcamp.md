@@ -27,231 +27,306 @@
 
 ## Contents
 
+---
+
 ### SLU01
 
-#### Main topics (SLU01)
+#### Pandas 101
+
+##### Main topics
 
 1. TBD
 2. TBD
 3. TBD
 
-#### Detailed curriculum (SLU01)
+##### Detailed curriculum
 
 TBD.
+
+---
 
 ### SLU02
 
-#### Main topics (SLU02)
+#### Pandas 201
+
+##### Main topics
 
 1. TBD
 2. TBD
 3. TBD
 
-#### Detailed curriculum (SLU02)
+##### Detailed curriculum
 
 TBD.
+
+---
 
 ### SLU03
 
-#### Main topics (SLU03)
+#### Data Visualization
+
+##### Main topics
 
 1. TBD
 2. TBD
 3. TBD
 
-#### Detailed curriculum (SLU03)
+##### Detailed curriculum
 
 TBD.
+
+---
 
 ### SLU04
 
-#### Main topics (SLU04)
+#### Basic Stats with Pandas
+
+##### Main topics
 
 1. TBD
 2. TBD
 3. TBD
 
-#### Detailed curriculum (SLU04)
+##### Detailed curriculum
 
 TBD.
+
+---
 
 ### SLU05
 
-#### Main topics (SLU05)
+#### Covariance & Correlation
+
+##### Main topics
 
 1. TBD
 2. TBD
 3. TBD
 
-#### Detailed curriculum (SLU05)
+##### Detailed curriculum
 
 TBD.
+
+---
 
 ### SLU06
 
-#### Main topics (SLU06)
+#### Dealing with Data Problems
+
+##### Main topics
 
 1. TBD
 2. TBD
 3. TBD
 
-#### Detailed curriculum (SLU06)
+##### Detailed curriculum
 
 TBD.
+
+---
 
 ### SLU07
 
-#### Main topics (SLU07)
+#### Linear Regression
+
+##### Main topics
 
 1. TBD
 2. TBD
 3. TBD
 
-#### Detailed curriculum (SLU07)
+##### Detailed curriculum
 
 TBD.
+
+---
 
 ### SLU08
 
-#### Main topics (SLU08)
+#### Logistic Regression
+
+##### Main topics
 
 1. TBD
 2. TBD
 3. TBD
 
-#### Detailed curriculum (SLU08)
+##### Detailed curriculum
 
 TBD.
+
+---
 
 ### SLU09
 
-#### Main topics (SLU09)
+#### Model Validation & Overfitting
+
+##### Main topics
 
 1. TBD
 2. TBD
 3. TBD
 
-#### Detailed curriculum (SLU09)
+##### Detailed curriculum
 
 TBD.
+
+---
 
 ### SLU10
 
-#### Main topics (SLU10)
+#### Validation Metrics
+
+##### Main topics
 
 1. TBD
 2. TBD
 3. TBD
 
-#### Detailed curriculum (SLU10)
+##### Detailed curriculum
 
 TBD.
+
+---
 
 ### SLU11
 
-#### Main topics (SLU11)
+#### Validation Metrics (Classification)
+
+##### Main topics
 
 1. TBD
 2. TBD
 3. TBD
 
-#### Detailed curriculum (SLU11)
+##### Detailed curriculum
 
 TBD.
+
+---
 
 ### SLU12
 
-#### Main topics (SLU12)
+#### Support Vector Machines (SVM)
 
-1. TBD
-2. TBD
-3. TBD
+##### Main topics
 
-#### Detailed curriculum (SLU12)
+1. What is it
+2. When to use it
+3. How to use it
+
+##### Detailed curriculum
 
 TBD.
+
+---
 
 ### SLU13
 
-#### Main topics (SLU13)
+#### Tree-Based Models 
 
-1. TBD
-2. TBD
-3. TBD
+##### Main topics
 
-#### Detailed curriculum (SLU13)
+1. What is it
+2. When to use it
+3. How to use it
+
+##### Detailed curriculum
 
 TBD.
+
+---
 
 ### SLU14
 
-#### Main topics (SLU14)
+#### k-Nearest Neighbors
 
-1. TBD
-2. TBD
-3. TBD
+##### Main topics
 
-#### Detailed curriculum (SLU14)
+1. What is it
+2. When to use it
+3. How to use it
+
+##### Detailed curriculum
 
 TBD.
+
+---
 
 ### SLU15
 
-#### Main topics (SLU15)
+#### Feature Engineering
+
+##### Main topics
 
 1. TBD
 2. TBD
 3. TBD
 
-#### Detailed curriculum (SLU15)
+##### Detailed curriculum
 
 TBD.
+
+---
 
 ### SLU16
 
-#### Main topics (SLU16)
+#### Hyperparameter Tuning
+
+##### Main topics
 
 1. TBD
 2. TBD
 3. TBD
 
-#### Detailed curriculum (SLU16)
+#### Detailed curriculum
 
 TBD.
+
+---
 
 ### SLU17
 
-#### Main topics (SLU17)
+#### Data Sufficiency & Selection
+
+##### Main topics
 
 1. TBD
 2. TBD
 3. TBD
 
-#### Detailed curriculum (SLU17)
+##### Detailed curriculum
 
 TBD.
+
+---
 
 ### SLU18
 
-#### Main topics (SLU18)
+#### Ethics & Fairness
+
+##### Main topics
 
 1. TBD
 2. TBD
 3. TBD
 
-#### Detailed curriculum (SLU18)
+##### Detailed curriculum
 
 TBD.
+
+---
 
 ### SLU19
 
-#### Main topics (SLU19)
+#### Basic Workflow
+
+##### Main topics
 
 1. TBD
 2. TBD
 3. TBD
 
-#### Detailed curriculum (SLU19)
+##### Detailed curriculum
 
 TBD.
-
