@@ -39,10 +39,11 @@
 
 ##### Detailed curriculum
 
-1. Object Creation
+1. Importing Pandas (i.e., `import pandas as pd`)
+2. **Object Creation**
     1. `pd.Series`
     2. `pd.DataFrame`
-2. Basic Functionality
+3. **Basic Functionality**
     1. `head()`, `tail()`
     2. Attributes
         1. `shape`
@@ -58,7 +59,7 @@
     3. Summarizing Data
         1. `describe`
         2. `info`
-3. Pandas' IO Tools
+4. **Pandas' IO Tools**
     1. Read a CSV file into a DataFrame
         1. `read_csv`
     2. Store the contents of a DataFrame as a CSV file
