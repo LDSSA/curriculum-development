@@ -27,23 +27,43 @@
 
 ## Contents
 
----
-
 ### SLU01
 
 #### Pandas 101
 
 ##### Main topics
 
-1. TBD
-2. TBD
-3. TBD
+1. Object Creation
+2. Basic Functionality
+3. Pandas' IO Tools.
 
 ##### Detailed curriculum
 
-TBD.
-
----
+1. Object Creation
+    1. `pd.Series`
+    2. `pd.DataFrame`
+2. Basic Functionality
+    1. `head()`, `tail()`
+    2. Attributes
+        1. `shape`
+        2. Axis Labels
+            1. Series: `index`
+            2. DataFrame: `index`, `columns`
+        3. Underlying Data
+            1. `array`
+            2. `to_numpy` (instead of `values`)
+        4. Data Types
+            1. Series: `dtype`
+            1. DataFrame: `dtypes`
+    3. Summarizing Data
+        1. `describe`
+        2. `info`
+3. Pandas' IO Tools
+    1. Read a CSV file into a DataFrame
+        1. `read_csv`
+    2. Store the contents of a DataFrame as a CSV file
+        1. `to_csv`
+    3. Reference to other similar IO tools to read and write data (e.g., JSON, Excel).
 
 ### SLU02
 
@@ -54,6 +74,8 @@ TBD.
 1. TBD
 2. TBD
 3. TBD
+
+`select_dtypes`
 
 ##### Detailed curriculum
 
@@ -83,13 +105,21 @@ TBD.
 
 ##### Main topics
 
-1. TBD
+1. Descriptive Statistics
 2. TBD
 3. TBD
 
 ##### Detailed curriculum
 
-TBD.
+1. Descriptive Statistics in Pandas
+    1. `count()`
+    2. `nunique()`
+    3. `mean()`, `median()`
+    4. `mode()`
+    5. `min()`, `max`
+    6. `idxmin()`, `idxmax()`
+    7. `var()`, `std()`
+
 
 ---
 
