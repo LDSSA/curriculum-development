@@ -12,7 +12,7 @@
 |       | Notation & Definitions                  | Intro                  | New      |                   |
 | SLU01 | Pandas 101                              | Intro                  | To Adapt | [Content](#slu01) |
 | SLU02 | Subsetting Data in Pandas               | Intro                  | To Adapt | [Content](#slu02) |
-| SLU03 | Data Visualization                      | Intro                  | Existing | [Content](#slu03) |
+| SLU03 | Visualization with Pandas & Matplotlib  | Intro                  | Existing | [Content](#slu03) |
 | SLU04 | Basic Stats with Pandas                 | Basic Practice         | To Adapt | [Content](#slu04) |
 | SLU05 | Covariance & Correlation                | Basic Practice         | Existing | [Content](#slu05) |
 | SLU06 | Dealing with Data Problems              | Basic Practice         | Existing | [Content](#slu06) |
@@ -125,6 +125,7 @@
             1. `.drop(axis=1)`, `.drop(columns=)`
         2. From Columns
             1. `drop()`
+
 ---
 
 ### SLU03
@@ -133,13 +134,45 @@
 
 ##### Main topics
 
-1. TBD
-2. TBD
-3. TBD
+1. Basic Plotting in Pandas
+2. Different Types of Plots
+3. Formatting & Styling
 
 ##### Detailed curriculum
 
-TBD.
+1. Importing Matplotlib
+    1. `import matplotlib.pyplot as plt`
+    2. `%matplotlib inline`
+2. Basic Plotting in Pandas
+    1. Line plots
+        1. Series: `.plot()`
+        2. DataFrame: `.plot()`, `.plot(x=, y=)`
+3. Different Types of Plots
+    1. How to choose the right chart
+    2. Bar plots
+        1. Using `.plot(kind='bar')`, `.plot(kind='barh')`
+        2. Using `.plot.bar()`, `.plot.barh()`
+        3. Stacked bar plots with `stacked=True`
+    3. Histograms
+        1. Using `.plot(kind='hist')`
+        2. Using `.plot.hist()`, `.plot.hist(xlim=)`
+    4. Boxplot
+        1. Using `.plot(kind='box')`
+        2. Using `.plot.box()`, `.plot.box(vert=False)`
+    5. Scatterplot
+        1. Using `.plot(kind='scatter')`
+        2. Using `.plot.scatter()`
+4. Formatting & Styling
+    1. Using the Matplotlib API (some can be used on Pandas directly)
+        1. Size: `matplotlib.rcParams["figure.figsize"]`
+        2. Styles: `plt.style.use`
+        3. Legend: `plot(legend=)`, `plt.legend()`
+        4. Labels: `plt.xlabel`, `plt.ylabel`
+        5. Title: `plt.title`
+        6. Text: `plt.figtext`
+    2. Avoiding chartjunk
+        1. Don't use unnecessary and/or confusing elements
+        2. Use the minimum set of visuals necessary to be informative.
 
 ---
 
@@ -150,7 +183,7 @@ TBD.
 ##### Main topics
 
 1. Descriptive Statistics
-2. TBD
+2. Distribution
 3. TBD
 
 ##### Detailed curriculum
@@ -163,6 +196,13 @@ TBD.
     5. `min()`, `max`
     6. `idxmin()`, `idxmax()`
     7. `var()`, `std()`
+    8. `quantile()`
+2. Distribution
+    1. Density
+        1. Skew, Kurtosis
+        2. `plt.plot(kind='density')`
+        3. Seaborn
+    2. Cumulative
 
 
 ---
