@@ -109,7 +109,6 @@
                 1. Single column
                 2. Multiple columns
                     1. By passing a list or array of columns, in any order
-                    2. A slice object with columns
             2. Attribute access (not indexing), i.e., dot notation  `df.col`
         3. Multi-Axis Indexing with `.loc[]` and `.iloc[]`
             1. Multi-Axis Selection by Label
@@ -166,7 +165,7 @@
     1. Using the Matplotlib API (some can be used on Pandas directly)
         1. Size: `matplotlib.rcParams["figure.figsize"]`
         2. Styles: `plt.style.use()`
-        3. Legend: `plot(legend=)`, `plt.legend()`
+        3. Legend: `.plot(legend=)`, `plt.legend()`
         4. Labels: `plt.xlabel()`, `plt.ylabel()`
         5. Title: `plt.title()`
         6. Text: `plt.figtext()`
@@ -183,27 +182,29 @@
 ##### Main topics
 
 1. Descriptive Statistics
-2. Distributions
+2. Inspecting Distributions
 3. TBD
 
 ##### Detailed curriculum
 
 1. Descriptive Statistics in Pandas
-    1. `count()`
-    2. `nunique()`
-    3. `mean()`, `median()`
-    4. `mode()`
-    5. `min()`, `max`
-    6. `idxmin()`, `idxmax()`
-    7. `var()`, `std()`
-    8. `quantile()`
-2. Distributions
-    1. Density
-        1. Skew, Kurtosis
-        2. `plt.plot(kind='density')`
-        3. Seaborn
-    2. Cumulative
-
+    1. `.count()`
+    2. `.sum()`, `.cumsum()`
+    3. `.nunique()`
+    4. `.mean()`, `.median()`
+    5. `.mode()`
+    6. `.min()`, `.max()`
+    7. `.idxmin()`, `.idxmax()`
+    8. `.var()`, `.std()`
+    9. `.quantile()`
+2. Inspecting Distributions
+    1. Skew with `.skew()`, plus interpretation
+    2. Kurtosis with `.kurt()`, plus interpretation
+    3. Probability Density Function (PDF)
+        1. Using `.plot(kind='density')`
+        2. Using `.plot.density()`
+    4. Cumulative Density Function (CDF)
+        1. Using `.plot(kind='hist', histtype='step', density=True, bins=100, cumulative=True)`
 
 ---
 
