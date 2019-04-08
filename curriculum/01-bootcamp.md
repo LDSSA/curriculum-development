@@ -11,7 +11,7 @@
 |-------|-----------------------------------------|------------------------|----------|-------------------|
 |       | Notation & Definitions                  | Intro                  | New      |                   |
 | SLU01 | Pandas 101                              | Intro                  | To Adapt | [Content](#slu01) |
-| SLU02 | Pandas 201                              | Intro                  | To Adapt | [Content](#slu02) |
+| SLU02 | Subsetting Data in Pandas               | Intro                  | To Adapt | [Content](#slu02) |
 | SLU03 | Data Visualization                      | Intro                  | Existing | [Content](#slu03) |
 | SLU04 | Basic Stats with Pandas                 | Basic Practice         | To Adapt | [Content](#slu04) |
 | SLU05 | Covariance & Correlation                | Basic Practice         | Existing | [Content](#slu05) |
@@ -49,15 +49,15 @@
     1. `pd.Series`
     2. `pd.DataFrame`
 3. Basic Functionality
-    1. `head()`, `tail()`
+    1. `.head()`, `.tail()`
     2. Attributes
-        1. `shape`
+        1. `.shape`
         2. Axis Labels
-            1. Series: `index`
-            2. DataFrame: `index`, `columns`
+            1. Series: `.index`
+            2. DataFrame: `.index`, `.columns`
         3. Underlying Data
-            1. `array`
-            2. `to_numpy` (instead of `values`)
+            1. `.values`
+            1. `.array`, `to_numpy`
         4. Data Types
             1. Series: `dtype`
             1. DataFrame: `dtypes`
@@ -73,39 +73,58 @@
 
 ### SLU02
 
-#### Pandas 201
+#### Subsetting Data in Pandas
 
 ##### Main topics
 
-1. Indexing and Selecting Data
-2. Adding & Removing Rows and Columns
-3. TBD
-
-`select_dtypes`
+1. Basic Indexing
+2. Adding Rows & Columns
+3. Removing Rows & Columns
 
 ##### Detailed curriculum
 
-1. Indexing and Selecting Data
+1. Basic Indexing
     1. Set the DataFrame index
         1. Using `index=` on object creation with `pd.Series` or `pd.DataFrame`
         2. Using `index_col=` when reading with `pd.read_csv`
         3. Using existing columns
             1. `reset_index()`
             2. `set_index()`, `sort_index()`
-    1. Indexing
-        1. `pd.Series`
-            1. `pd.Series.loc[indexer]`
-            2. `pd.Series.iloc[position]`
-        2. `pd.DataFrame`
-            1. `pd.DataFrame.loc[row_indexer, col_indexer]`
-            2. `pd.DataFrame.loc[row_position, col_position]`
-    2. Selecting Columns
-        1. Indexing, i.e., square brackets `df[col]`
-            1. Selecting a Single Column
-            2. Selecting Multiple Columns
-        2. Attribute access, i.e., dot notation  `df.col`
-    3.  Selecting 
-
+    2. Indexers: `[]`, `.loc[]`, and `.iloc[]`
+        1. Selecting Rows with `.loc[]` and `.iloc[]`
+            1. Selection by Label, i.e., `.loc[indexer]`
+                1. Single row by passing a single Label
+                2. Multiple rows
+                    1. By passing a list or array of labels
+                    2. A slice object, i.e., slice notation
+                    3. A boolean array or Series
+            2. Selection by Position, i.e., `.iloc[position]`
+                1. Single row by passing an integer
+                2. Multiple rows
+                    1. By passing a list or array of integers
+                    2. A slice object with integers
+                    3. A boolean array
+        2. Selecting Columns with `[]`
+            1. Using the indexing operator `[]`, i.e., square brackets notation `df[col]`
+                1. Single column
+                2. Multiple columns
+                    1. By passing a list or array of columns, in any order
+                    2. A slice object with columns
+            2. Attribute access (not indexing), i.e., dot notation  `df.col`
+        3. Multi-Axis Indexing with `.loc[]` and `.iloc[]`
+            1. Multi-Axis Selection by Label
+                1. `.loc[row_indexer, col_indexer]`
+            2. Multi-Axis Selection by Position
+                1. `.iloc[row_position, col_position]`
+2. Adding Rows & Columns
+    1. Using the indexing operator `df[new_col]=`
+    2. Assigning new columns to a DataFrame with `.assign()`
+3. Removing Rows & Columns
+    1. Using `drop()` to remove specified labels
+        1. From Rows
+            1. `.drop(axis=1)`, `.drop(columns=)`
+        2. From Columns
+            1. `drop()`
 ---
 
 ### SLU03
@@ -389,5 +408,10 @@ TBD.
 ## 2 Topics Not Covered
 
 1. Pandas
-    1. Merging, joining, and concatenating
-    2. Split-apply-combine
+    1. `drop_duplicates()`
+    2. `.select_dtypes()`
+    3. `.pop()`
+    4. Method chaining
+    5. Multi-Index and Advanced Indexing
+    6. Merging, joining, and concatenating
+    7. Split-apply-combine
