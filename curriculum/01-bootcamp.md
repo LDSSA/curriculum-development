@@ -130,7 +130,7 @@
 
 ### SLU03
 
-#### Data Visualization
+#### Visualization with Pandas & Matplotlib
 
 ##### Main topics
 
@@ -148,7 +148,7 @@
         1. Series: `.plot()`
         2. DataFrame: `.plot()`, `.plot(x=, y=)`
 3. Different Types of Plots
-    1. How to choose the right chart
+    1. How to choose the right type
     2. Bar plots
         1. Using `.plot(kind='bar')`, `.plot(kind='barh')`
         2. Using `.plot.bar()`, `.plot.barh()`
@@ -165,11 +165,11 @@
 4. Formatting & Styling
     1. Using the Matplotlib API (some can be used on Pandas directly)
         1. Size: `matplotlib.rcParams["figure.figsize"]`
-        2. Styles: `plt.style.use`
+        2. Styles: `plt.style.use()`
         3. Legend: `plot(legend=)`, `plt.legend()`
-        4. Labels: `plt.xlabel`, `plt.ylabel`
-        5. Title: `plt.title`
-        6. Text: `plt.figtext`
+        4. Labels: `plt.xlabel()`, `plt.ylabel()`
+        5. Title: `plt.title()`
+        6. Text: `plt.figtext()`
     2. Avoiding chartjunk
         1. Don't use unnecessary and/or confusing elements
         2. Use the minimum set of visuals necessary to be informative.
@@ -183,7 +183,7 @@
 ##### Main topics
 
 1. Descriptive Statistics
-2. Distribution
+2. Distributions
 3. TBD
 
 ##### Detailed curriculum
@@ -197,7 +197,7 @@
     6. `idxmin()`, `idxmax()`
     7. `var()`, `std()`
     8. `quantile()`
-2. Distribution
+2. Distributions
     1. Density
         1. Skew, Kurtosis
         2. `plt.plot(kind='density')`
@@ -448,7 +448,7 @@ TBD.
 ## 2 Topics Not Covered
 
 1. Pandas
-    1. `drop_duplicates()`
+    1. `.drop_duplicates()`
     2. `.select_dtypes()`
     3. `.pop()`
     4. Method chaining
