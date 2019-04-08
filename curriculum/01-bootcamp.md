@@ -1,6 +1,11 @@
 # Bootcamp Curriculum
 
-## Overview
+## Table of Contents
+
+1. [Curriculum](#1-curriculum)
+2. [Topics Not Covered](#2-topics-not-covered)
+
+## 1 Curriculum
 
 | SLU   | Name                                    | Family                 | Status   | Content           |
 |-------|-----------------------------------------|------------------------|----------|-------------------|
@@ -73,19 +78,33 @@
 ##### Main topics
 
 1. Indexing and Selecting Data
-2. Adding, Removing Rows/Columns
-3. Split-Apply-Combine
+2. Adding & Removing Rows and Columns
+3. TBD
 
 `select_dtypes`
 
 ##### Detailed curriculum
 
 1. Indexing and Selecting Data
-    1. Selecting Columns
+    1. Set the DataFrame index
+        1. Using `index=` on object creation with `pd.Series` or `pd.DataFrame`
+        2. Using `index_col=` when reading with `pd.read_csv`
+        3. Using existing columns
+            1. `reset_index()`
+            2. `set_index()`, `sort_index()`
+    1. Indexing
+        1. `pd.Series`
+            1. `pd.Series.loc[indexer]`
+            2. `pd.Series.iloc[position]`
+        2. `pd.DataFrame`
+            1. `pd.DataFrame.loc[row_indexer, col_indexer]`
+            2. `pd.DataFrame.loc[row_position, col_position]`
+    2. Selecting Columns
         1. Indexing, i.e., square brackets `df[col]`
             1. Selecting a Single Column
             2. Selecting Multiple Columns
         2. Attribute access, i.e., dot notation  `df.col`
+    3.  Selecting 
 
 ---
 
@@ -163,7 +182,7 @@ TBD.
 
 ### SLU07
 
-#### Linear Regression
+#### Regression with Linear Regression
 
 ##### Main topics
 
@@ -179,7 +198,7 @@ TBD.
 
 ### SLU08
 
-#### Logistic Regression
+#### Classification with Logistic Regression
 
 ##### Main topics
 
@@ -366,3 +385,9 @@ TBD.
 ##### Detailed curriculum
 
 TBD.
+
+## 2 Topics Not Covered
+
+1. Pandas
+    1. Merging, joining, and concatenating
+    2. Split-apply-combine
