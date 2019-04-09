@@ -197,14 +197,18 @@
     7. `.idxmin()`, `.idxmax()`
     8. `.var()`, `.std()`
     9. `.quantile()`
-2. Inspecting Distributions
-    1. Skew with `.skew()`, plus interpretation
-    2. Kurtosis with `.kurt()`, plus interpretation
+    10. `.rank()`
+2. Inspecting the Distribution of the Data
+    1. Skew with `.skew()`
+    2. Kurtosis with `.kurt()`
     3. Probability Density Function (PDF)
-        1. Using `.plot(kind='density')`
-        2. Using `.plot.density()`
+        1. What is it and why is it useful
+        2. Using `.plot(kind='density')`
+        3. Using `.plot.density()`
     4. Cumulative Density Function (CDF)
-        1. Using `.plot(kind='hist', histtype='step', density=True, bins=100, cumulative=True)`
+        1. What is it and why is it useful
+        2. Using `.plot(kind='hist', histtype='step', density=True, bins=100, cumulative=True)`
+3. TBD
 
 ---
 
@@ -214,13 +218,28 @@
 
 ##### Main topics
 
-1. TBD
-2. TBD
-3. TBD
+1. Covariance
+2. Correlation
+3. Causality
 
 ##### Detailed curriculum
 
-TBD.
+1. Covariance
+    1. What is it and why is it useful
+    2. Using `.cov`
+2. Correlation
+    1. What is it and why is it useful
+    2. Spearman correlation with `.corr()`
+    3. Pearson correlation with `.corr(method='spearman')`
+    4. Correlation matrix with `.corr()`
+3. Causality (or lack thereof)
+    1. Observational vs. experimental data
+    2. Spurious correlation
+    3. Examples of can't we infer that A causes B, despite the correlation
+        1. B causes A
+        2. Third factor C causes A and B, i.e., common-causal or confouding variable
+        3. Bidirectional causation
+        4. Coincidental relationship
 
 ---
 
