@@ -66,9 +66,9 @@
         2. `info`
 4. Pandas' IO Tools
     1. Read a CSV file into a DataFrame
-        1. `read_csv`
+        1. `pd.read_csv`
     2. Store the contents of a DataFrame as a CSV file
-        1. `to_csv`
+        1. `pd.to_csv`
     3. Reference to other similar IO tools to read and write data (e.g., JSON, Excel).
 
 ### SLU02
@@ -208,7 +208,16 @@
     4. Cumulative Density Function (CDF)
         1. What is it and why is it useful
         2. Using `.plot(kind='hist', histtype='step', density=True, bins=100, cumulative=True)`
-3. TBD
+3. Outlier Detection
+    1. Visualy
+    2. Using standard deviations from the mean
+    3. Simples techniques to deal with outliers
+        1. Delete observations
+        2. Log transformation
+            1. Visualize the transformation with `plot.hist(logx=True)`
+            2. Log transform column in Pandas
+                1. `df[col] = np.log(df[col]` or `.assign(col=np.log(df[col])`
+                2. Do not use `.apply()`, because vectorization
 
 ---
 
@@ -236,10 +245,10 @@
     1. Observational vs. experimental data
     2. Spurious correlation
     3. Examples of can't we infer that A causes B, despite the correlation
-        1. B causes A
-        2. Third factor C causes A and B, i.e., common-causal or confouding variable
+        1. Third factor C causes A and B, i.e., common-causal or confouding variable
+        2. B causes A
         3. Bidirectional causation
-        4. Coincidental relationship
+        4. Coincidental relationships
 
 ---
 
@@ -249,13 +258,37 @@
 
 ##### Main topics
 
-1. TBD
-2. TBD
-3. TBD
+1. Data Entry Problems
+2. Imputation of Missing Values
+3. Outlier Detection
 
 ##### Detailed curriculum
 
-TBD.
+1. Tidy Data (see [this](https://www.jstatsoft.org/index.php/jss/article/view/v059i10/v59i10.pdf) and [this](http://courses.had.co.nz.s3-website-us-east-1.amazonaws.com/12-rice-bdsi/slides/07-tidy-data.pdf) for reference)
+    1. Each variable forms a column
+    2. Each observation forms a row
+    3. Each type of observational unit forms a table
+2. Data Entry Problems
+    1. Unstructured Data
+        1. Counts of unique elements
+            1. `.value_counts()`
+        2. String methods in Pandas with `.str`
+            1. `.str.lower()`, `str.upper()`
+            2. `.str.strip()`
+            3. `.str.replace()`
+            4. `.str.split()`
+            5. `.str.cat()`
+    2. Duplicated Entries
+        1. Finding duplicated entries with `.duplicated()`
+        2. Remove duplicates with `drop_duplicates()`
+3. Imputation of Missing Values
+    1. `.value_counts(dropna=False)`
+    2. `.isnull()`
+    3. Remove missing values with `.dropna()`
+    4. Simple imputation techniques
+        1. Fill missing values with `.fillna()`
+        2. Replacing missing numerical values with the mean
+        3. Replacing categorical values with a new category
 
 ---
 
@@ -357,7 +390,7 @@ TBD.
 
 ### SLU13
 
-#### Tree-Based Models 
+#### Tree-Based Models
 
 ##### Main topics
 
@@ -400,6 +433,8 @@ TBD.
 ##### Detailed curriculum
 
 TBD.
+
+Binning goes here (previously SLU08 - Dealing with Data Problems.)
 
 ---
 
