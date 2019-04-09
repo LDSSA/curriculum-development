@@ -211,11 +211,11 @@
 3. Outlier Detection
     1. Visualy
     2. Using standard deviations from the mean
-    3. Simples techniques to deal with outliers
+    3. Simple techniques to deal with outliers
         1. Delete observations
         2. Log transformation
             1. Visualize the transformation with `plot.hist(logx=True)`
-            2. Log transform column in Pandas
+            2. Log transform a column in Pandas
                 1. `df[col] = np.log(df[col]` or `.assign(col=np.log(df[col])`
                 2. Do not use `.apply()`, because vectorization
 
@@ -500,13 +500,13 @@ TBD.
 
 TBD.
 
+`.select_dtypes()`
+`.pop()`
+
 ## 2 Topics Not Covered
 
-1. Pandas
-    1. `.drop_duplicates()`
-    2. `.select_dtypes()`
-    3. `.pop()`
-    4. Method chaining
-    5. Multi-Index and Advanced Indexing
-    6. Merging, joining, and concatenating
-    7. Split-apply-combine
+1. Pandas`
+    1. Method chaining
+    2. Multi-Index and Advanced Indexing
+    3. Merging, joining, and concatenating
+    4. Split-apply-combine
