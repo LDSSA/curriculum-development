@@ -299,28 +299,30 @@
 ##### Main topics
 
 1. Practical Introduction to Linear Regression
-2. Learning the Parameters: Feature Weights and Intercept Term
-3. Using Linear Regression
+2. Training a Linear Regression
+3. Using the Linear Regression
 
 ##### Detailed curriculum
 
 1. Practical Introduction to Linear Regression
-    1. We have a collection of labeled examples
-    2. Including some explanatory variables, i.e., features
-    3. Plus a real-valued label, i.e., target
-    4. We model the target as an hyperplane, defined as a linear combination of features and an intercept term
-    5. And we want to resulting hyperplane to be as close to all examples as possible
-2. Learning the Parameters: Feature Weights and Intercept Term
-    1. Loss function, i.e., a measure of penalty of error or misclassification of an example
-    2. Cost function, i.e., the objective we want to minimize by computing the loss across all examples
-        1. All model-based learning algorithms use loss and cost functions
-    3. Closed-form solution (preferable to complex optimization methods)
+    1. Regression as the problem of predicting real-valued labels
+    2. Linear Regression as an hyperplane, defined as a linear combination of features plus an intercept term
+    3. The hyperplane needs to be as close to all examples as possible
+2. Training a Linear Regression
+    1. Components of all learning algorithms
+        1. A loss function
+        2. An optimization objective based on the loss function, e.g., a cost function
+        3. An optimizer or optimization routine, also known as solver
+    2. Learning the parameters in Linear Regression
+        1. Loss function: Square Loss
+        2. Objective: Mean Squared Error (MSE)
+        3. Solver: Ordinary Least Squares (OLS)
 3. Using Linear Regression
     1. Practical strenghts
         1. Simplicity
         2. Generalization to unseen examples
     2. Using the Linear Regession from scikit-learn
-        1. Importing from scikit-learn (i.e., `from sklearn.linear_model import LinearRegression`)
+        1. Importing from scikit (i.e., `from sklearn.linear_model import LinearRegression`)
         2. `.fit(X, y)`
         3. `.coef_`, `.intercept_`
         4. `.predict()`
@@ -333,13 +335,30 @@
 
 ##### Main topics
 
-1. Classification vs. Regression
-2. TBD
-3. TBD
+1. Practical Introduction to Classificaton
+2. Classifical with Logistic Regression
+3. Using the Logistic Regression
 
 ##### Detailed curriculum
 
-TBD.
+1. Practical Introduction to Classification
+    1. Classification is the problem of assigning one of a finite set of classes
+    2. Binary classification
+    3. Multiclass classification
+2. Classification with Logistic Regression
+    1. Applying the standard logistic or sigmoid function
+        1. Output can be interpreted as the probability of the positive label
+        2. Defining a threshold
+    2. Learning the parameters in Logistic Regression
+        1. Objective: maximum likelihood, adapted to log-likelihood
+        2. Solver: gradient descent
+            1. Basic intuition
+            2. Point to external resources as optional, advanced material
+3. Using Logistic Regression
+    1. Importing from scikit (i.e., `from sklearn.linear_model import LogisticRegression`)
+    2. `.fit(X, y)`
+    3. `.predict()`
+    4. `.predict_proba()`
 
 ---
 
@@ -351,7 +370,7 @@ TBD.
 
 1. TBD
 2. TBD
-3. TBD
+3. Regularization
 
 ##### Detailed curriculum
 
@@ -454,6 +473,7 @@ TBD.
 TBD.
 
 Binning goes here (previously SLU08 - Dealing with Data Problems.)
+Scaling
 
 ---
 
@@ -529,5 +549,5 @@ TBD.
     2. Multi-Index and Advanced Indexing
     3. Merging, joining, and concatenating
     4. Split-apply-combine
-2. Regularization
-3. Gradient Descent
+2. ~~Regularization~~
+3. ~~Gradient Descent~~
