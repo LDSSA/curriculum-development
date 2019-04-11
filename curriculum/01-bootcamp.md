@@ -298,13 +298,33 @@
 
 ##### Main topics
 
-1. TBD
-2. TBD
-3. TBD
+1. Practical Introduction to Linear Regression
+2. Learning the Parameters: Feature Weights and Intercept Term
+3. Using Linear Regression
 
 ##### Detailed curriculum
 
-TBD.
+1. Practical Introduction to Linear Regression
+    1. We have a collection of labeled examples
+    2. Including some explanatory variables, i.e., features
+    3. Plus a real-valued label, i.e., target
+    4. We model the target as an hyperplane, defined as a linear combination of features and an intercept term
+    5. And we want to resulting hyperplane to be as close to all examples as possible
+2. Learning the Parameters: Feature Weights and Intercept Term
+    1. Loss function, i.e., a measure of penalty of error or misclassification of an example
+    2. Cost function, i.e., the objective we want to minimize by computing the loss across all examples
+        1. All model-based learning algorithms use loss and cost functions
+    3. Closed-form solution (preferable to complex optimization methods)
+    4. Gradient descent
+3. Using Linear Regression
+    1. Practical strenghts
+        1. Simplicity
+        2. Generalization to unseen examples
+    2. Using the Linear Regession from scikit-learn
+        1. Importing from scikit-learn (i.e., `from sklearn.linear_model import LinearRegression`)
+        2. `.fit(X, y)`
+        3. `.coef_`, `.intercept_`
+        4. `.predict()`
 
 ---
 
@@ -314,7 +334,7 @@ TBD.
 
 ##### Main topics
 
-1. TBD
+1. Classification vs. Regression
 2. TBD
 3. TBD
 
@@ -444,7 +464,7 @@ Binning goes here (previously SLU08 - Dealing with Data Problems.)
 
 ##### Main topics
 
-1. TBD
+1. Parameters vs. Hyperparameters
 2. TBD
 3. TBD
 
@@ -510,3 +530,4 @@ TBD.
     2. Multi-Index and Advanced Indexing
     3. Merging, joining, and concatenating
     4. Split-apply-combine
+2. Regularization
