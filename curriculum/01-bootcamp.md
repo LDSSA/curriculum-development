@@ -315,7 +315,6 @@
     2. Cost function, i.e., the objective we want to minimize by computing the loss across all examples
         1. All model-based learning algorithms use loss and cost functions
     3. Closed-form solution (preferable to complex optimization methods)
-    4. Gradient descent
 3. Using Linear Regression
     1. Practical strenghts
         1. Simplicity
@@ -531,3 +530,4 @@ TBD.
     3. Merging, joining, and concatenating
     4. Split-apply-combine
 2. Regularization
+3. Gradient Descent
