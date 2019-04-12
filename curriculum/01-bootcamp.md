@@ -18,7 +18,7 @@
 | SLU06 | Dealing with Data Problems              | Basic Practice         | Existing | [Content](#slu06) |
 | SLU07 | Regression with Linear Regression       | Fundamental Algorithms | Existing | [Content](#slu07) |
 | SLU08 | Classification with Logistic Regression | Fundamental Algorithms | Existing | [Content](#slu08) |
-| SLU09 | Model Validation & Overfitting          | Basic Practice         | Existing | [Content](#slu09) |
+| SLU09 | Model Selection & Overfitting           | Basic Practice         | Existing | [Content](#slu09) |
 | SLU10 | Validation Metrics (Regression)         | Basic Practice         | Existing | [Content](#slu10) |
 | SLU11 | Validation Metrics (Classification)     | Basic Practice         | Existing | [Content](#slu11) |
 | SLU12 | Support Vector Machines (SVM)           | Fundamental Algorithms | New      | [Content](#slu12) |
@@ -323,9 +323,10 @@
         2. Generalization to unseen examples
     2. Using the Linear Regession from scikit-learn
         1. Importing from scikit (i.e., `from sklearn.linear_model import LinearRegression`)
-        2. `.fit(X, y)`
-        3. `.coef_`, `.intercept_`
-        4. `.predict()`
+        2. `sklearn.linear_model.LinearRegression`
+            1. `.fit(X, y)`
+            2. `.coef_`, `.intercept_`
+            3. `.predict()`
 
 ---
 
@@ -352,29 +353,49 @@
     2. Learning the parameters in Logistic Regression
         1. Objective: maximum likelihood, adapted to log-likelihood
         2. Solver: gradient descent
-            1. Basic intuition
+            1. Intro to batch gradient descent
             2. Point to external resources as optional, advanced material
 3. Using Logistic Regression
-    1. Importing from scikit (i.e., `from sklearn.linear_model import LogisticRegression`)
-    2. `.fit(X, y)`
-    3. `.predict()`
-    4. `.predict_proba()`
+    1. `sklearn.linear_model.LogisticRegression`
+        1. `.fit(X, y)`
+        2. `.predict()`
+        3. `.predict_proba()`
 
 ---
 
 ### SLU09
 
-#### Model Validation & Overfitting
+#### Model Selection & Overfitting
 
 ##### Main topics
 
-1. TBD
-2. TBD
-3. Regularization
+1. Generalization Error
+2. Model Selection with Cross-Validation
+3. Regularized Linear Regression
 
 ##### Detailed curriculum
 
-TBD.
+1. Generalization Error
+    1. Decomposition
+        1. Bias
+        2. Variance
+        3. Irreducible error
+    2. Bias-variance trade-off
+2. Model Selection with Cross-Validation
+    1. Leave-one-out or hold-out method
+        1. `sklearn.model_selection.train_test_split`
+        2. In-sample or training error
+        3. Out-of-sample or testing error
+        4. Validation dataset
+        5. Evaluating overfitting and underfitting
+    2. K-Fold cross-validation
+        1. `sklearn.model_selection.cross_val_score`
+3. Regularization Linear Regression
+    1. Basic intuition
+    2. Lasso
+        1. `sklearn.linear_model.Lasso`
+    3. Ridge
+        1. `sklearn.linear_model.Ridge`
 
 ---
 
@@ -544,10 +565,12 @@ TBD.
 
 ## 2 Topics Not Covered
 
-1. Pandas`
+1. Pandas
     1. Method chaining
     2. Multi-Index and Advanced Indexing
     3. Merging, joining, and concatenating
     4. Split-apply-combine
 2. ~~Regularization~~
 3. ~~Gradient Descent~~
+4. Leakage
+5. Bootstrapping
