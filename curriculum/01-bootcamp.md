@@ -381,6 +381,7 @@
         2. Variance
         3. Irreducible error
     2. Bias-variance trade-off
+    3. Sources of complexity
 2. Model Selection with Cross-Validation
     1. Leave-one-out or hold-out method
         1. `sklearn.model_selection.train_test_split`
@@ -390,12 +391,13 @@
         5. Evaluating overfitting and underfitting
     2. K-Fold cross-validation
         1. `sklearn.model_selection.cross_val_score`
-3. Regularization Linear Regression
-    1. Basic intuition
-    2. Lasso
+3. Regularized Linear Regression
+    1. Lasso, or L1: intuition and use-case
         1. `sklearn.linear_model.Lasso`
-    3. Ridge
+    2. Ridge, or L2: intuition and use-case
         1. `sklearn.linear_model.Ridge`
+    3. Elastic Net
+        1. `sklearn.linear_model.ElasticNet`
 
 ---
 
