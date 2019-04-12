@@ -442,13 +442,35 @@
 
 ##### Main topics
 
-1. TBD
-2. TBD
-3. TBD
+1. Limitations of Accuracy
+2. Precision & Recall
+3. AUC-ROC Curve
 
 ##### Detailed curriculum
 
-TBD.
+1. Limitations of Accuracy
+    1. Accuracy Score
+        1. `sklearn.metrics.accuracy_score`
+    2. Class Imbalance
+    3. Implications for the Accuracy Score
+2. Precision & Recall
+    1. Confusion Matrix
+        1. `sklearn.metrics.confusion_matrix`
+    2. Precision
+        1. `sklearn.metrics.precision_score`
+    3. Recall
+        1. `sklearn.metrics.recall_score`
+    4. F1-Score
+        1. `sklearn.metrics.f1_score`
+3. AUC-ROC Curve
+    1. ROC Curve
+        1. Intuition
+            1. False Positive Rate (FPR)
+            2. True Positive Rate (TPR)
+            3. Thresholds
+        2. `sklearn.metrics.roc_curve`
+    2. Area Under the ROC Curve (AUC)
+        1. `sklearn.metrics.roc_auc_score`
 
 ---
 
