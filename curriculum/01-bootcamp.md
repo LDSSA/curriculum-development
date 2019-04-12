@@ -19,8 +19,8 @@
 | SLU07 | Regression with Linear Regression       | Fundamental Algorithms | Existing | [Content](#slu07) |
 | SLU08 | Classification with Logistic Regression | Fundamental Algorithms | Existing | [Content](#slu08) |
 | SLU09 | Model Selection & Overfitting           | Basic Practice         | Existing | [Content](#slu09) |
-| SLU10 | Validation Metrics (Regression)         | Basic Practice         | Existing | [Content](#slu10) |
-| SLU11 | Validation Metrics (Classification)     | Basic Practice         | Existing | [Content](#slu11) |
+| SLU10 | Metrics for Regression                  | Basic Practice         | Existing | [Content](#slu10) |
+| SLU11 | Metrics for Classification              | Basic Practice         | Existing | [Content](#slu11) |
 | SLU12 | Support Vector Machines (SVM)           | Fundamental Algorithms | New      | [Content](#slu12) |
 | SLU13 | Tree-Based Models                       | Fundamental Algorithms | New      | [Content](#slu13) |
 | SLU14 | k-Nearest Neighbors                     | Fundamental Algorithms | New      | [Content](#slu14) |
@@ -392,34 +392,53 @@
     2. K-Fold cross-validation
         1. `sklearn.model_selection.cross_val_score`
 3. Regularized Linear Regression
-    1. Lasso, or L1: intuition and use-case
+    1. Intuition and use-cases
+    2. Lasso, or L1: intuition and use-case
         1. `sklearn.linear_model.Lasso`
-    2. Ridge, or L2: intuition and use-case
+    3. Ridge, or L2: intuition and use-case
         1. `sklearn.linear_model.Ridge`
-    3. Elastic Net
+    4. Elastic Net
         1. `sklearn.linear_model.ElasticNet`
 
 ---
 
 ### SLU10
 
-#### Validation Metrics
+#### Metrics for Regression
 
 ##### Main topics
 
-1. TBD
-2. TBD
-3. TBD
+1. Loss Function vs. Evaluation Metric
+2. Evaluation Metrics for Regression
+3. Using the Metrics
 
 ##### Detailed curriculum
 
-TBD.
+1. Loss Function vs. Evaluation Metric
+2. Evaluation Metrics for Regression
+    1. Mean Absolute Error (MAE)
+        1. `sklearn.metrics.mean_absolute_error`
+    2. Mean Squared Error (MSE)
+        1. `sklearn.metrics.mean_squared_error`
+    3. Root Mean Squared Error (RMSE)
+        1. From MSE
+    4. Coefficient of Determination or R²
+        1. `sklearn.metrics.r2_score`
+        2. `sklearn.linear_model.LinearRegression.score`
+    5. Adjusted R²
+        1. From R²
+3. Using the Metrics
+    1. Hold-out method
+        1. Training error
+        2. Testing error
+    2. K-Fold
+        1. `sklearn.model_selection.cross_val_score(scoring=)`
 
 ---
 
 ### SLU11
 
-#### Validation Metrics (Classification)
+#### Metrics for Classification
 
 ##### Main topics
 
