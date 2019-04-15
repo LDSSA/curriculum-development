@@ -393,9 +393,9 @@
         1. `sklearn.model_selection.cross_val_score`
 3. Regularized Linear Regression
     1. Intuition and use-cases
-    2. Lasso, or L1: intuition and use-case
+    2. Lasso, or L1
         1. `sklearn.linear_model.Lasso`
-    3. Ridge, or L2: intuition and use-case
+    3. Ridge, or L2
         1. `sklearn.linear_model.Ridge`
     4. Elastic Net
         1. `sklearn.linear_model.ElasticNet`
