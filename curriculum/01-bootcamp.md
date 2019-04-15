@@ -2,35 +2,65 @@
 
 ## Table of Contents
 
-1. [Curriculum](#1-curriculum)
-2. [Topics Not Covered](#2-topics-not-covered)
+1. [Curriculum Overview](#1-curriculum)
+2. [Competencies](#2-competencies)
+3. [Contents](#3-detailed-contents)
+4. [Topics Not Covered](#4-topics-not-covered)
 
-## 1 Curriculum
+## 1 Curriculum Overview
 
-| SLU   | Name                                    | Family                 | Status   | Content           |
-|-------|-----------------------------------------|------------------------|----------|-------------------|
-|       | Notation & Definitions                  | Intro                  | New      |                   |
-| SLU01 | Pandas 101                              | Intro                  | To Adapt | [Content](#slu01) |
-| SLU02 | Subsetting Data in Pandas               | Intro                  | To Adapt | [Content](#slu02) |
-| SLU03 | Visualization with Pandas & Matplotlib  | Intro                  | Existing | [Content](#slu03) |
-| SLU04 | Basic Stats with Pandas                 | Basic Practice         | To Adapt | [Content](#slu04) |
-| SLU05 | Covariance & Correlation                | Basic Practice         | Existing | [Content](#slu05) |
-| SLU06 | Dealing with Data Problems              | Basic Practice         | Existing | [Content](#slu06) |
-| SLU07 | Regression with Linear Regression       | Fundamental Algorithms | Existing | [Content](#slu07) |
-| SLU08 | Classification with Logistic Regression | Fundamental Algorithms | Existing | [Content](#slu08) |
-| SLU09 | Model Selection & Overfitting           | Basic Practice         | Existing | [Content](#slu09) |
-| SLU10 | Metrics for Regression                  | Basic Practice         | Existing | [Content](#slu10) |
-| SLU11 | Metrics for Classification              | Basic Practice         | Existing | [Content](#slu11) |
-| SLU12 | Support Vector Machines (SVM)           | Fundamental Algorithms | New      | [Content](#slu12) |
-| SLU13 | Tree-Based Models                       | Fundamental Algorithms | New      | [Content](#slu13) |
-| SLU14 | k-Nearest Neighbors                     | Fundamental Algorithms | New      | [Content](#slu14) |
-| SLU15 | Feature Engineering                     | Basic Practice         | Existing | [Content](#slu15) |
-| SLU16 | Hyperparameter Tuning                   | Basic Practice         | Existing | [Content](#slu16) |
-| SLU17 | Data Sufficiency & Selection            | Basic Practice         | Existing | [Content](#slu17) |
-| SLU18 | Ethics & Fairness                       | Basic Practice         | New      | [Content](#slu18) |
-| SLU19 | Basic Workflow                          | Basic Practice         | Existing | [Content](#slu19) |
+| SLU   | Name                                     | Core Competency        | Status   | Content           |
+|-------|------------------------------------------|------------------------|----------|-------------------|
+|       | Notation & Definitions                   |                        | New      |                   |
+| SLU01 | Pandas 101                               | Data Skills & Analysis | To Adapt | [Content](#slu01) |
+| SLU02 | Subsetting Data in Pandas                | Data Skills & Analysis | To Adapt | [Content](#slu02) |
+| SLU03 | Visualization with Pandas & Matplotlib   | Data Skills & Analysis | Existing | [Content](#slu03) |
+| SLU04 | Basic Stats with Pandas                  | Data Skills & Analysis | To Adapt | [Content](#slu04) |
+| SLU05 | Covariance & Correlation                 | Data Skills & Analysis | Existing | [Content](#slu05) |
+| SLU06 | Dealing with Data Problems               | Data Skills & Analysis | Existing | [Content](#slu06) |
+| SLU07 | Regression with Linear Regression        | Learning Algorithms    | Existing | [Content](#slu07) |
+| SLU08 | Classification with Logistic Regression  | Learning Algorithms    | Existing | [Content](#slu08) |
+| SLU09 | Model Selection & Overfitting            | ML Fundamentals        | Existing | [Content](#slu09) |
+| SLU10 | Metrics for Regression                   | ML Fundamentals        | Existing | [Content](#slu10) |
+| SLU11 | Metrics for Classification               | ML Fundamentals        | Existing | [Content](#slu11) |
+| SLU12 | Support Vector Machines (SVM)            | Learning Algorithms    | New      | [Content](#slu12) |
+| SLU13 | Tree-Based Models                        | Learning Algorithms    | New      | [Content](#slu13) |
+| SLU14 | k-Nearest Neighbors                      | Learning Algorithms    | New      | [Content](#slu14) |
+| SLU15 | Feature Engineering (aka Real Wold Data) | Data Skills & Analysis | Existing | [Content](#slu15) |
+| SLU16 | Data Sufficiency & Selection             | Data Skills & Analysis | Existing | [Content](#slu16) |
+| SLU18 | Ethics & Fairness                        | Data Skills & Analysis | New      | [Content](#slu18) |
+| SLU17 | Hyperparameter Tuning                    | ML Fundamentals        | Existing | [Content](#slu17) |
+| SLU19 | Workflow                                 |                        | Existing | [Content](#slu19) |
 
-## Contents
+## 2 Competencies
+
+### 2.1 Data Skills & Analysis
+
+Introduction to the Pandas library and its applications for:
+
+* Data preparation
+* Analysis
+* Visualization.
+
+### 2.2 Learning Algorithms
+
+A practical overview of fundamental supervised learning techniques:
+
+* Linear Regression
+* Logistic Regression
+* SVM
+* Tree-Based Models
+* k-Nearest Neighbors.
+
+### 2.3 ML Fundamentals
+
+Key concepts for the basic practice of Data Science and Machine Learning:
+
+* Over- and under-fitting
+* Evaluation Metrics
+* Hyperparameter tuning.
+
+## 3 Contents
 
 ### SLU01
 
@@ -209,7 +239,7 @@
         1. What is it and why is it useful
         2. Using `.plot(kind='hist', histtype='step', density=True, bins=100, cumulative=True)`
 3. Outlier Detection
-    1. Visualy
+    1. Visually
     2. Using standard deviations from the mean
     3. Simple techniques to deal with outliers
         1. Delete observations
@@ -245,7 +275,7 @@
     1. Observational vs. experimental data
     2. Spurious correlation
     3. Examples of can't we infer that A causes B, despite the correlation
-        1. Third factor C causes A and B, i.e., common-causal or confouding variable
+        1. Third factor C causes A and B, i.e., common-causal or confounding variable
         2. B causes A
         3. Bidirectional causation
         4. Coincidental relationships
@@ -306,22 +336,22 @@
 
 1. Practical Introduction to Linear Regression
     1. Regression as the problem of predicting real-valued labels
-    2. Linear Regression as an hyperplane, defined as a linear combination of features plus an intercept term
+    2. Linear Regression as a hyperplane, defined as a linear combination of features plus an intercept term
     3. The hyperplane needs to be as close to all examples as possible
 2. Training a Linear Regression
     1. Components of all learning algorithms
         1. A loss function
         2. An optimization objective based on the loss function, e.g., a cost function
-        3. An optimizer or optimization routine, also known as solver
+        3. An optimizer or optimization routine, also known as the solver
     2. Learning the parameters in Linear Regression
         1. Loss function: Square Loss
         2. Objective: Mean Squared Error (MSE)
         3. Solver: Ordinary Least Squares (OLS)
 3. Using Linear Regression
-    1. Practical strenghts
+    1. Practical strengths
         1. Simplicity
-        2. Generalization to unseen examples
-    2. Using the Linear Regession from scikit-learn
+        2. The generalization to unseen examples
+    2. Using the Linear Regression from scikit-learn
         1. Importing from scikit (i.e., `from sklearn.linear_model import LinearRegression`)
         2. `sklearn.linear_model.LinearRegression`
             1. `.fit(X, y)`
@@ -336,8 +366,8 @@
 
 ##### Main topics
 
-1. Practical Introduction to Classificaton
-2. Classifical with Logistic Regression
+1. Practical Introduction to Classification
+2. Classification with Logistic Regression
 3. Using the Logistic Regression
 
 ##### Detailed curriculum
@@ -480,9 +510,9 @@
 
 ##### Main topics
 
-1. What is it
-2. When to use it
-3. How to use it
+1. Decision Boundaries
+2. Introduction to SVM 
+3. Using SVM
 
 ##### Detailed curriculum
 
