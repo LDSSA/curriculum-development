@@ -421,7 +421,7 @@ Key concepts for the basic practice of Data Science and Machine Learning:
         5. Evaluating overfitting and underfitting
     2. K-Fold cross-validation
         1. `sklearn.model_selection.cross_val_score`
-3. Regularized Linear Regression
+3. Regularized Linear Models
     1. Intuition and use-cases
     2. Lasso, or L1
         1. `sklearn.linear_model.Lasso`
@@ -510,15 +510,26 @@ Key concepts for the basic practice of Data Science and Machine Learning:
 
 ##### Main topics
 
-1. Decision Boundaries
-2. Introduction to SVM 
-3. Using SVM
+1. Understanding the Decision Boundary
+2. Implementing SVMs
+3. Using SVMs
 
 ##### Detailed curriculum
 
-TBD.
-
----
+1. Understanding the Decision Boundary
+    1. Margin & Generalization
+    2. Linearly Separable Classes
+    3. Non-Linear Decision Boundaries
+2. Implementing SVMs
+    1. Linear Model
+        1. Hard-margin SVM
+        2. Dealing with Noise
+            1. Soft-margin SVM: misclassification and the `C` penalty
+    2. Inherent Non-Linearity
+        1. Kernel trick
+        2. Kernels or kernel functions
+3. Using SVMs
+    1. `sklearn.svm.SVC`
 
 ### SLU13
 
@@ -526,13 +537,25 @@ TBD.
 
 ##### Main topics
 
-1. What is it
-2. When to use it
-3. How to use it
+1. Decision Trees
+2. Ensemble Learning: Bagging & Boosting
+3. Using Tree-Based Models
 
 ##### Detailed curriculum
 
-TBD.
+1. Decision Trees
+2. Ensemble Learning
+    1. Flexibility & Overfitting
+    2. Bootstrap Aggregation, i.e., Bagging
+        1. Bootstrapping
+        2. Random Forests
+    3. Boosting
+        1. Gradient Boosting
+3. Using Tree-Based Models
+    1. Random Forests
+        1. `sklearn.ensemble.RandomForestClassifier`
+    2. Grandient Boosting
+        1. `sklearn.ensemble.GradientBoostingClassifier`
 
 ---
 
@@ -549,6 +572,8 @@ TBD.
 ##### Detailed curriculum
 
 TBD.
+
+Distance metrics.
 
 ---
 
@@ -646,4 +671,4 @@ TBD.
 2. ~~Regularization~~
 3. ~~Gradient Descent~~
 4. Leakage
-5. Bootstrapping
+5. ~~Bootstrapping~~
