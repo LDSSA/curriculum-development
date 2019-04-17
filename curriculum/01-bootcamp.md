@@ -648,7 +648,7 @@ Key concepts for the basic practice of Data Science and Machine Learning:
             1. `pd.cut()`
             2. `sklearn.preprocessing.KBinsDiscretizer`
         2. Feature binarization, according to a threshold
-            1. `df[col] > treshold`
+            1. `df[col] > threshold`
             2. `sklearn.preprocessing.Binarizer`
     2. Scaling
         1. Normalization
@@ -666,15 +666,35 @@ Key concepts for the basic practice of Data Science and Machine Learning:
 
 ##### Main topics
 
-1. Parameters vs. Hyperparameters
-2. TBD
-3. TBD
-
-Summarize hyperparameters for different algorithms
+1. Why Feature Selection
+2. Techniques for Feature Selection
+3. Learning Curves
 
 #### Detailed curriculum
 
-TBD.
+1. Why Feature Selection
+    1. Why having more features is not necessarily better
+        1. Lack of interpretability
+        2. Unexpected behaviour
+        3. Overfitting, i.e., poor performance
+        4. Training and prediction times
+    2. Heuristic: number of features shouldn't exceed 20% of the number of observations
+2. Techniques for Feature Selection
+    1. Univariate selection
+        1. Intuition, using Pandas
+        2. `sklearn.feature_selection.SelectKBest`
+    2. Correlation
+        1. Identify the features that correlated the most with the target variable
+        2. Correlated features
+    3. Feature importances
+        1. `.feature_importances_` for tree-based models
+        2. `.coef_` for linear models using previously scaled features
+        3. `sklearn.feature_selection.SelectFromModel`
+3. Learning Curves
+    1. Debugging bias and variance, i.e., under- and overfitting
+    2. Would the model benefit from additional data
+    3. `sklearn.model_selection.learning_curve`
+    4. Plotting and interpreting the learning curves
 
 ---
 
@@ -700,9 +720,11 @@ TBD.
 
 ##### Main topics
 
-1. TBD
+1. Parameters vs. Hyperparameters
 2. TBD
 3. TBD
+
+Summarize hyperparameters for different algorithms
 
 ##### Detailed curriculum
 
@@ -724,9 +746,10 @@ TBD.
 
 TBD.
 
-`.pop()`
-sklearn pipelines
-custom transformers
+* get to a baseline fast
+* `.pop()`
+* sklearn pipelines
+* custom transformers
 
 ## 4 Topics Not Covered
 
