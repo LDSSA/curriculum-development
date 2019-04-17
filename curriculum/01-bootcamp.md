@@ -612,16 +612,51 @@ Key concepts for the basic practice of Data Science and Machine Learning:
 
 ##### Main topics
 
-1. TBD
-2. TBD
-3. TBD
+1. Types of Statistical Data
+2. Dealing with Categorical Features
+3. Dealing with Numerical Features
 
 ##### Detailed curriculum
 
-TBD.
-
-Binning goes here (previously SLU08 - Dealing with Data Problems.)
-Scaling
+1. Types of Statistical Data
+    1. Numerical
+        1. Discrete
+        2. Continuous
+    2. Categorical
+        1. Binary
+        2. Ordinal
+        3. Nominal
+    3. `.select_dtypes()`
+2. Dealing with Categorical Features
+    1. Introducing sklearn-like transformers
+        1. `.fit()`
+        2. `.transform()`
+    2. Encoding categories
+        1. Binary
+            1. `pd.map()`
+        2. Label or ordinal encoding
+            1. Importing category-encoders, i.e., `import category-encoders as ce`
+            2. `ce.ordinal.OrdinalEncoder`
+        3. One-hot or dummy encoding
+            1. `pd.get_dummies(drop_first=True)`
+            2. `ce.one_hot.OneHotEncoder`
+        4. Target encoding
+            1. `ce.target_encoder.TargetEncoder`
+3. Dealing with Numerical Features
+    1. Discretization
+        1. Binning
+            1. `pd.cut()`
+            2. `sklearn.preprocessing.KBinsDiscretizer`
+        2. Feature binarization, according to a threshold
+            1. `df[col] > treshold`
+            2. `sklearn.preprocessing.Binarizer`
+    2. Scaling
+        1. Normalization
+            1. `sklearn.preprocessing.Normalizer`
+        2. Standardization or z-score normalization
+            1. `sklearn.preprocessing.StandardScaler`
+        3. Robust scaling in the presence of outliers
+            1. `sklearn.preprocessing.RobustScaler`
 
 ---
 
@@ -689,8 +724,9 @@ TBD.
 
 TBD.
 
-`.select_dtypes()`
 `.pop()`
+sklearn pipelines
+custom transformers
 
 ## 4 Topics Not Covered
 
