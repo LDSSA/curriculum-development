@@ -2,9 +2,9 @@
 
 ## Table of Contents
 
-1. [Curriculum Overview](#1-curriculum)
+1. [Curriculum Overview](#1-curriculum-overview)
 2. [Competencies](#2-competencies)
-3. [Contents](#3-detailed-contents)
+3. [Contents](#3-contents)
 4. [Topics Not Covered](#4-topics-not-covered)
 
 ## 1 Curriculum Overview
@@ -582,9 +582,9 @@ Key concepts for the basic practice of Data Science and Machine Learning:
 1. Key Differentiators of kNN
     1. Non-Parametric
     2. Lazy
-    3. Reliance on closeness, i.e., distance
+    3. Reliance on similarity as defined by closeness, i.e., distance
     4. kNN in a nutshell
-        1. Doesn't learn build a model
+        1. Doesn't learn or build a model
             1. No hypothesis function
             2. No learned weights
             3. No discarding the training data after training
@@ -596,10 +596,11 @@ Key concepts for the basic practice of Data Science and Machine Learning:
     1. Distance metrics
         1. Euclidean distance
         2. Dot-product
-        3. Cosine distances (most used, in practice)
+        3. Cosine distances (the most used, in practice)
     2. Unexpected behaviour in high dimensions, i.e., course of dimensionality
 3. How to use it
     1. Practical strenghts
+        1. Despite slow prediction time
     2. `sklearn.neighbors.KNeighborsClassifier`
     3. `sklearn.neighbors.KNeighborsRegressor`
 
@@ -607,7 +608,7 @@ Key concepts for the basic practice of Data Science and Machine Learning:
 
 ### SLU15
 
-#### Feature Engineering
+#### Feature Engineering (aka Real World Data)
 
 ##### Main topics
 
@@ -626,7 +627,7 @@ Scaling
 
 ### SLU16
 
-#### Hyperparameter Tuning
+#### Data Sufficiency & Selection
 
 ##### Main topics
 
@@ -644,7 +645,7 @@ TBD.
 
 ### SLU17
 
-#### Data Sufficiency & Selection
+#### Ethics & Fairness
 
 ##### Main topics
 
@@ -660,7 +661,7 @@ TBD.
 
 ### SLU18
 
-#### Ethics & Fairness
+#### Hyperparameter Tuning
 
 ##### Main topics
 
@@ -691,7 +692,7 @@ TBD.
 `.select_dtypes()`
 `.pop()`
 
-## 2 Topics Not Covered
+## 4 Topics Not Covered
 
 1. Pandas
     1. Method chaining
