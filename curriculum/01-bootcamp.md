@@ -25,7 +25,7 @@
 | SLU11 | Metrics for Classification               | ML Fundamentals        | Existing | [Content](#slu11) |
 | SLU12 | Support Vector Machines (SVM)            | Learning Algorithms    | New      | [Content](#slu12) |
 | SLU13 | Tree-Based Models                        | Learning Algorithms    | New      | [Content](#slu13) |
-| SLU14 | k-Nearest Neighbors                      | Learning Algorithms    | New      | [Content](#slu14) |
+| SLU14 | k-Nearest Neighbors (kNN)                | Learning Algorithms    | New      | [Content](#slu14) |
 | SLU15 | Feature Engineering (aka Real Wold Data) | Data Skills & Analysis | Existing | [Content](#slu15) |
 | SLU16 | Data Sufficiency & Selection             | Data Skills & Analysis | Existing | [Content](#slu16) |
 | SLU18 | Ethics & Fairness                        | Data Skills & Analysis | New      | [Content](#slu18) |
@@ -386,7 +386,8 @@ Key concepts for the basic practice of Data Science and Machine Learning:
             1. Intro to batch gradient descent
             2. Point to external resources as optional, advanced material
 3. Using Logistic Regression
-    1. `sklearn.linear_model.LogisticRegression`
+    1. Practical strengths
+    2. `sklearn.linear_model.LogisticRegression`
         1. `.fit(X, y)`
         2. `.predict()`
         3. `.predict_proba()`
@@ -529,7 +530,9 @@ Key concepts for the basic practice of Data Science and Machine Learning:
         1. Kernel trick
         2. Kernels or kernel functions
 3. Using SVMs
-    1. `sklearn.svm.SVC`
+    1. Practical strengths
+    2. `sklearn.svm.SVC`
+    3. `sklearn.svm.SVR`
 
 ### SLU13
 
@@ -544,36 +547,61 @@ Key concepts for the basic practice of Data Science and Machine Learning:
 ##### Detailed curriculum
 
 1. Decision Trees
-2. Ensemble Learning
-    1. Flexibility & Overfitting
-    2. Bootstrap Aggregation, i.e., Bagging
+    1. Debunking Decision Trees
+    2. Flexibility & Overfitting
+2. Ensemble Learning: Bagging & Boosting
+    1. Bootstrap Aggregation, i.e., Bagging
         1. Bootstrapping
         2. Random Forests
-    3. Boosting
+    2. Boosting
         1. Gradient Boosting
 3. Using Tree-Based Models
     1. Random Forests
-        1. `sklearn.ensemble.RandomForestClassifier`
+        1. Practical strengths
+        2. `sklearn.ensemble.RandomForestClassifier`
+        3. `sklearn.ensemble.RandomForestRegressor`
     2. Grandient Boosting
-        1. `sklearn.ensemble.GradientBoostingClassifier`
+        1. Practical strengths
+        2. `sklearn.ensemble.GradientBoostingClassifier`
+        3. `sklearn.ensemble.GradientBoostingRegressor`
 
 ---
 
 ### SLU14
 
-#### k-Nearest Neighbors
+#### k-Nearest Neighbors (kNN)
 
 ##### Main topics
 
-1. What is it
+1. Key Differentiators of kNN
 2. When to use it
 3. How to use it
 
 ##### Detailed curriculum
 
-TBD.
-
-Distance metrics.
+1. Key Differentiators of kNN
+    1. Non-Parametric
+    2. Lazy
+    3. Reliance on closeness, i.e., distance
+    4. kNN in a nutshell
+        1. Doesn't learn build a model
+            1. No hypothesis function
+            2. No learned weights
+            3. No discarding the training data after training
+            4. No training, one could say
+        2. Instead, keeps all the training data in memory
+        3. Predictions use the *k* closest examples to return a majority label
+            1. Implications of *k*
+2. A Primer on Distance
+    1. Distance metrics
+        1. Euclidean distance
+        2. Dot-product
+        3. Cosine distances (most used, in practice)
+    2. Unexpected behaviour in high dimensions, i.e., course of dimensionality
+3. How to use it
+    1. Practical strenghts
+    2. `sklearn.neighbors.KNeighborsClassifier`
+    3. `sklearn.neighbors.KNeighborsRegressor`
 
 ---
 
@@ -605,6 +633,8 @@ Scaling
 1. Parameters vs. Hyperparameters
 2. TBD
 3. TBD
+
+Summarize hyperparameters for different algorithms
 
 #### Detailed curriculum
 
