@@ -729,7 +729,7 @@ Key concepts for the basic practice of Data Science and Machine Learning:
         1. Proxy discrimination
         2. Fairness criteria
 3. Trustworthiness
-    1. Communicate bias and limiations
+    1. Communicate bias and limitations
     2. Concept drift
     3. Explainability
     4. Reproducibility
@@ -742,15 +742,26 @@ Key concepts for the basic practice of Data Science and Machine Learning:
 
 ##### Main topics
 
-1. Parameters vs. Hyperparameters
-2. TBD
-3. TBD
-
-Summarize hyperparameters for different algorithms
+1. Understanding Hyperparameters
+2. Hyperparameters Cheatsheet
+3. Hyperparameter Optimization
 
 ##### Detailed curriculum
 
-TBD.
+1. Understanding Hyperparameters
+    1. How are they different from model parameters
+2. Hyperparameters Cheatsheet
+    1. Linear & Logistic Regression
+    2. SVM
+    3. Tree-Based Models
+        1. Random Forests
+        2. Grandient Boosting
+    4. k-NN
+3. Hyperparameter Optimization
+    1. Grid search
+        1. `sklearn.model_selection.GridSearchCV`
+    2. Random search
+        1. `sklearn.model_selection.RandomizedSearchCV`
 
 ---
 
@@ -784,3 +795,4 @@ TBD.
 3. ~~Gradient Descent~~
 4. Leakage
 5. ~~Bootstrapping~~
+6. Bayesian Optimization for Hyperparameter Tuning
