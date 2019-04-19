@@ -401,7 +401,7 @@ Key concepts for the basic practice of Data Science and Machine Learning:
 ##### Main topics
 
 1. Generalization Error
-2. Model Selection with Cross-Validation
+2. Model Selection
 3. Regularized Linear Regression
 
 ##### Detailed curriculum
@@ -413,7 +413,7 @@ Key concepts for the basic practice of Data Science and Machine Learning:
         3. Irreducible error
     2. Bias-variance trade-off
     3. Sources of complexity
-2. Model Selection with Cross-Validation
+2. Model Selection
     1. Leave-one-out or hold-out method
         1. `sklearn.model_selection.train_test_split`
         2. In-sample or training error
@@ -422,6 +422,8 @@ Key concepts for the basic practice of Data Science and Machine Learning:
         5. Evaluating overfitting and underfitting
     2. K-Fold cross-validation
         1. `sklearn.model_selection.cross_val_score`
+    3. Data leakage
+    4. Online and offline evaluation
 3. Regularized Linear Models
     1. Intuition and use-cases
     2. Lasso, or L1
@@ -750,6 +752,7 @@ Key concepts for the basic practice of Data Science and Machine Learning:
 
 1. Understanding Hyperparameters
     1. How are they different from model parameters
+    2. Why are they important
 2. Hyperparameters Cheatsheet
     1. Linear & Logistic Regression
     2. SVM
@@ -771,18 +774,46 @@ Key concepts for the basic practice of Data Science and Machine Learning:
 
 ##### Main topics
 
-1. TBD
-2. TBD
-3. TBD
+1. Workflow
+2. Workflow Tips
+3. Pipelines & Custom Estimators
 
 ##### Detailed curriculum
 
-TBD.
-
-* get to a baseline fast
-* `.pop()`
-* sklearn pipelines
-* custom transformers
+1. Workflow
+    1. Get the data
+    2. Data analysis and preparation
+        1. Data analysis
+        2. Dealing with data problems
+        3. Feature engineering
+        4. Feature selection
+    3. Train model
+    4. Evaluate results
+    5. Iterate
+2. Workflow Tips
+    1. Inspect the data
+    2. Establish a simple baseline as fast as possible
+    3. Increase complexity incrementally
+    4. Don't overuse the test set, or you risk overfitting to it
+    5. Keep training and test pipelines consistency at all times
+        1. Learn parameters on training data, e.g., mean and variance for standardization
+            1. e.g., `.fit()`
+        2. Apply the exact same transformations, with the same parameters, on train and test data
+            1. e.g., `.fit_transform()` for training data
+            2. e.g., `.transform()` for test data
+3. Pipelines & Custom Estimators
+    1. Pipelines
+        1. Pipelines ensure train and test pipeline consistency with minimum effort
+            1. `sklearn.pipeline.Pipeline`
+        2. Compatible with all `sklearn`-like estimators, i.e., transformers, models
+        3. Pipeline object can be used with cross-validation and hyperparameter tuning
+        4. Trained object can be used to make predictions on unseen data, i.e., `.predict()`
+            1. This will run all the data preparation
+            2. And use the trained model to make predictions
+    2. Custom Estimators
+        1. Make all transformations compatible with a Pipeline object, enforcing good standards
+            1. `sklearn.base.BaseEstimator`
+            2. `sklearn.base.TransformerMixin`
 
 ## 4 Topics Not Covered
 
@@ -791,8 +822,10 @@ TBD.
     2. Multi-Index and Advanced Indexing
     3. Merging, joining, and concatenating
     4. Split-apply-combine
+    5. `.pop()`
 2. ~~Regularization~~
 3. ~~Gradient Descent~~
-4. Leakage
+4. ~~Leakage~~
 5. ~~Bootstrapping~~
 6. Bayesian Optimization for Hyperparameter Tuning
+7. Feature Unions
