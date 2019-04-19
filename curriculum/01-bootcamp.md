@@ -704,13 +704,35 @@ Key concepts for the basic practice of Data Science and Machine Learning:
 
 ##### Main topics
 
-1. TBD
-2. TBD
-3. TBD
+1. Informed Consent, Privacy & Security
+2. Bias & Discrimination
+3. Trustworthiness
 
 ##### Detailed curriculum
 
-TBD.
+1. Informed Consent, Privacy & Security
+    1. Informed consent
+        1. Right to be forgotten
+    2. Privacy and security
+        1. Limit the exposure of private information
+        2. Data security & retention plan
+    3. Ressess and roll-back
+    4. Unintended use
+2. Bias & Discrimination
+    1. Sources of bias
+        1. Reporting bias
+        2. Automation bias
+        3. Selection bias
+        4. Group attribution bias
+    2. Honest representation
+    3. Fairness across groups
+        1. Proxy discrimination
+        2. Fairness criteria
+3. Trustworthiness
+    1. Communicate bias and limiations
+    2. Concept drift
+    3. Explainability
+    4. Reproducibility
 
 ---
 
