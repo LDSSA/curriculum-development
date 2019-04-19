@@ -28,8 +28,8 @@
 | SLU14 | k-Nearest Neighbors (kNN)                | Learning Algorithms    | New      | [Content](#slu14) |
 | SLU15 | Feature Engineering (aka Real Wold Data) | Data Skills & Analysis | Existing | [Content](#slu15) |
 | SLU16 | Data Sufficiency & Selection             | Data Skills & Analysis | Existing | [Content](#slu16) |
-| SLU18 | Ethics & Fairness                        | Data Skills & Analysis | New      | [Content](#slu18) |
-| SLU17 | Hyperparameter Tuning                    | ML Fundamentals        | Existing | [Content](#slu17) |
+| SLU18 | Ethics & Fairness                        | Data Skills & Analysis | New      | [Content](#slu17) |
+| SLU17 | Hyperparameter Tuning                    | ML Fundamentals        | Existing | [Content](#slu18) |
 | SLU19 | Workflow                                 |                        | Existing | [Content](#slu19) |
 
 ## 2 Competencies
