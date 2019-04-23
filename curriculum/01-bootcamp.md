@@ -74,11 +74,11 @@ Key concepts for the basic practice of Data Science and Machine Learning:
 
 ##### Detailed curriculum
 
-1. Importing Pandas (i.e., `import pandas as pd`)
-2. Object Creation
+0. Importing Pandas (i.e., `import pandas as pd`)
+1. Object Creation
     1. `pd.Series`
     2. `pd.DataFrame`
-3. Basic Functionality
+2. Basic Functionality
     1. `.head()`, `.tail()`
     2. Attributes
         1. `.shape`
@@ -94,7 +94,7 @@ Key concepts for the basic practice of Data Science and Machine Learning:
     3. Summarizing Data
         1. `describe`
         2. `info`
-4. Pandas' IO Tools
+3. Pandas' IO Tools
     1. Read a CSV file into a DataFrame
         1. `pd.read_csv`
     2. Store the contents of a DataFrame as a CSV file
@@ -169,14 +169,14 @@ Key concepts for the basic practice of Data Science and Machine Learning:
 
 ##### Detailed curriculum
 
-1. Importing Matplotlib
+0. Importing Matplotlib
     1. `import matplotlib.pyplot as plt`
     2. `%matplotlib inline`
-2. Basic Plotting in Pandas
+1. Basic Plotting in Pandas
     1. Line plots
         1. Series: `.plot()`
         2. DataFrame: `.plot()`, `.plot(x=, y=)`
-3. Different Types of Plots
+2. Different Types of Plots
     1. How to choose the right type
     2. Bar plots
         1. Using `.plot(kind='bar')`, `.plot(kind='barh')`
@@ -191,7 +191,7 @@ Key concepts for the basic practice of Data Science and Machine Learning:
     5. Scatterplot
         1. Using `.plot(kind='scatter')`
         2. Using `.plot.scatter()`
-4. Formatting & Styling
+3. Formatting & Styling
     1. Using the Matplotlib API (some can be used on Pandas directly)
         1. Size: `matplotlib.rcParams["figure.figsize"]`
         2. Styles: `plt.style.use()`
@@ -213,7 +213,7 @@ Key concepts for the basic practice of Data Science and Machine Learning:
 
 1. Descriptive Statistics
 2. Inspecting Distributions
-3. TBD
+3. Outlier Detection
 
 ##### Detailed curriculum
 
@@ -288,9 +288,9 @@ Key concepts for the basic practice of Data Science and Machine Learning:
 
 ##### Main topics
 
-1. Data Entry Problems
-2. Imputation of Missing Values
-3. Outlier Detection
+1. Tidy Data
+2. Data Entry Problems
+3. Imputation of Missing Values
 
 ##### Detailed curriculum
 
@@ -330,7 +330,7 @@ Key concepts for the basic practice of Data Science and Machine Learning:
 
 1. Practical Introduction to Linear Regression
 2. Training a Linear Regression
-3. Using the Linear Regression
+3. Using Linear Regression
 
 ##### Detailed curriculum
 
@@ -368,7 +368,7 @@ Key concepts for the basic practice of Data Science and Machine Learning:
 
 1. Practical Introduction to Classification
 2. Classification with Logistic Regression
-3. Using the Logistic Regression
+3. Using Logistic Regression
 
 ##### Detailed curriculum
 
@@ -576,8 +576,8 @@ Key concepts for the basic practice of Data Science and Machine Learning:
 ##### Main topics
 
 1. Key Differentiators of kNN
-2. When to use it
-3. How to use it
+2. A Primer on Distance
+3. Using kNN
 
 ##### Detailed curriculum
 
@@ -600,7 +600,7 @@ Key concepts for the basic practice of Data Science and Machine Learning:
         2. Dot-product
         3. Cosine distances (the most used, in practice)
     2. Unexpected behaviour in high dimensions, i.e., course of dimensionality
-3. How to use it
+3. Using kNN
     1. Practical strenghts
         1. Despite slow prediction time
     2. `sklearn.neighbors.KNeighborsClassifier`
@@ -718,7 +718,7 @@ Key concepts for the basic practice of Data Science and Machine Learning:
     2. Privacy and security
         1. Limit the exposure of private information
         2. Data security & retention plan
-    3. Ressess and roll-back
+    3. Reassess and roll-back
     4. Unintended use
 2. Bias & Discrimination
     1. Sources of bias
