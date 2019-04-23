@@ -414,16 +414,19 @@ Key concepts for the basic practice of Data Science and Machine Learning:
     2. Bias-variance trade-off
     3. Sources of complexity
 2. Model Selection
-    1. Leave-one-out or hold-out method
-        1. `sklearn.model_selection.train_test_split`
-        2. In-sample or training error
-        3. Out-of-sample or testing error
-        4. Validation dataset
-        5. Evaluating overfitting and underfitting
-    2. K-Fold cross-validation
-        1. `sklearn.model_selection.cross_val_score`
-    3. Data leakage
-    4. Online and offline evaluation
+    1. Offline evaluation
+        1. Leave-one-out or hold-out method
+            1. `sklearn.model_selection.train_test_split`
+            2. In-sample or training error
+            3. Out-of-sample or testing error
+            4. Validation dataset
+            5. Evaluating overfitting and underfitting
+        2. K-Fold cross-validation
+            1. `sklearn.model_selection.cross_val_score`
+        3. Data leakage
+    2. Practical considerations
+        1. Training time
+        2. Prediction time
 3. Regularized Linear Models
     1. Intuition and use-cases
     2. Lasso, or L1
