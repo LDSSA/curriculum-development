@@ -7,46 +7,49 @@
 
 ## 1 Curriculum
 
-| SLU   | Name | Specialization | Status | Content           |
-|-------|------|----------------|--------|-------------------|
-| BLU01 |      | Data Wrangling |        | [Content](#blu01) |
-| BLU02 |      | Data Wrangling |        | [Content](#blu02) |
-| BLU03 |      | Data Wrangling |        | [Content](#blu03) |
+| SLU   | Name | Specialization | Status   | Content           |
+|-------|------|----------------|----------|-------------------|
+| BLU01 | Advanced wrangling | Data Wrangling | Proposed | [Content](#blu01) |
+| BLU02 | Multi-indexing | Data Wrangling | Proposed | [Content](#blu02) |
+| BLU03 | Data sources | Data Wrangling | Proposed | [Content](#blu03) |
 
 ## Contents
 
 ### BLU01
 
-#### Name of the BLU (TBD)
+#### Advanced wrangling (TBD)
 
 ##### Main topics
 
-1. Split-Apply-Combine (suggestion, dropped from Bootcamp)
-2. Merging, joining, and concatenating (suggestion, dropped from Bootcamp)
-3. TBD
+1. Transforming datasets 
+2. Merge apply combine 
+3. Transformers and Pipelines 
 
 ##### Detailed curriculum
+[WIP, being developed here](https://docs.google.com/spreadsheets/d/18cNXz5JEgfqG4PpPPVesTJfQs9pMbnMiMiAWCHGm6yc/edit#gid=0)
 
 ### BLU02
 
-#### Name of the BLU (TBD)
+#### Multi-indexing
 
 ##### Main topics
 
-1. TBD
-2. TBD
-3. TBD
+1. Selecting 
+2. Stacking and unstacking 
+3. Groupby on multi-index
 
 ##### Detailed curriculum
+[WIP, being developed here](https://docs.google.com/spreadsheets/d/18cNXz5JEgfqG4PpPPVesTJfQs9pMbnMiMiAWCHGm6yc/edit#gid=0)
 
 ### BLU03
 
-#### Name of the BLU (TBD)
+#### Data sources
 
 ##### Main topics
 
-1. TBD
-2. TBD
-3. TBD
+1. Alternative tabular data sources 
+2. SQL 101
+3. HTML and Requests 101 
 
 ##### Detailed curriculum
+[WIP, being developed here](https://docs.google.com/spreadsheets/d/18cNXz5JEgfqG4PpPPVesTJfQs9pMbnMiMiAWCHGm6yc/edit#gid=0)
