@@ -247,7 +247,7 @@ Key concepts for the basic practice of Data Science and Machine Learning:
             1. Visualize the transformation with `plot.hist(logx=True)`
             2. Log transform a column in Pandas
                 1. `df[col] = np.log(df[col]` or `.assign(col=np.log(df[col])`
-                2. Do not use `.apply()`, because vectorization
+                2. Note for the Teacher: do not use `.apply()`, because vectorization
 
 ---
 
