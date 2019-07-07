@@ -26,31 +26,35 @@
 1. Common problems and solutions
 
 ##### Detailed curriculum
-- tsv 
-- Unusual delimeters (e.g. ";", "|", etc)
-- excel 
-- corrupt data (e.g. csv files with text boxes over the data) 
-- Using basic unix to inspect files 
-- json data
-- encodings
+1. beyond the csv 
+  - shuffle 
+  - Unusual delimeters (e.g. ";", "|", etc)
+  - corrupt data (e.g. csv files with text boxes over the data) 
+  - non-csv formats 
+    - excel (with multiple sheets) 
+    - json 
+    - encodings
+  - Using basic unix to inspect files (`!head` `!tail`, `ls -lh`)
+2. Dealing with larger datasets
+  - loading a sample 
+  - loading a random sample (without loading all - explained [here](https://stackoverflow.com/questions/22258491/read-a-small-random-sample-from-a-big-csv-file-into-a-python-data-frame)) 
+  - Read csv - chunk size
+    - creating a dataset with the chunks (applying functions to the chunks)   
 
 ### BLU02
 #### Advanced wrangling (TBD)
 
 ##### Main topics
 
-1. Creating tidy datasets 
-1. Dealing with the index 
-1. Dealing with larger datasets 
-1. Pipelines and Feature Unions 
-1. String methods 
+1. group-apply-combine 
+  - vanilla 
+  - with lambda functions 
+2. Creating tidy datasets 
+  - workflow to get multiple datasets into one 
+  - concats, merges
+  - inner and outer, left join   
+3. Pipelines and Feature Unions 
 
-##### Detailed curriculum
-- Tidy dataset concept 
-- Creating scripts to build tidy datasets
-- Advanced group-apply-combine with lambda functions 
-- Chunking 
-- Pipelines and Feature Unions 
 
 ### BLU03
 
@@ -59,8 +63,29 @@
 ##### Main topics
 
 1. SQL 101
-1. HTML 101 and Beautiful Soup  
-1. HTTP requests 
+- Notes: 
+  - let's try and treat this as _"know it exists & know where to look"_
+  - why SQL is worth knowing, and when it's better to use than Pandas 
+  - **KEEP IT SUPER BASIC** in the exercises! 
+- concepts: relational database, tables, foreign & primary key 
+- Basic tooling overview 
+  - show alternatives to pandas 
+  - not be tested in the exercises 
+- SELECT *
+- COUNT 
+- FROM 
+- WHERE 
+- JOIN
+- GROUP BY
+- LIMIT 
+- AS 
+- DISTINCT
+- ORDER BY
+2. HTML 101 and Beautiful Soup  
+  - No change from last year  
+3. HTTP requests 
+  - GET 
+  - nothing else 
 
-##### Detailed curriculum
-(self explanatory ;)) 
+# General notes: 
+- When running into content from batch-2 you don't want to erase, leave it as advanced content in an optional separate Learning Notebook 
