@@ -22,11 +22,11 @@
 ##### Main topics
 
 1. Alternative tabular sources 
-1. Non tabular data sources 
-1. Common problems and solutions
+2. Non-tabular data sources 
+3. Common problems and solutions
 
 ##### Detailed curriculum
-1. beyond the csv 
+1. Beyond csv 
   - shuffle 
   - Unusual delimeters (e.g. ";", "|", etc)
   - corrupt data (e.g. csv files with text boxes over the data) 
@@ -70,7 +70,7 @@
 - concepts: relational database, tables, foreign & primary key 
 - Basic tooling overview 
   - show alternatives to pandas 
-  - not be tested in the exercises 
+  - not to be tested in the exercises 
 - SELECT *
 - COUNT 
 - FROM 
