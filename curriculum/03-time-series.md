@@ -10,10 +10,11 @@
 
 
 ## 1 General
-- The decision to make the Advanced Pandas (multi index) for Time Series optional is to move some of the Time Series concepts to the first BLU, this helps because:
-  - This is the time series specialization, so it makes sense that the first BLU talks about time series
-  - This makes it possible for the second BLU to completely cover the Classical Models, since the basic concepts have already been introduced.
-  - Finally, this makes it possible for the last BLU to focus only on using ML for time series.
+The main changes from last years' curriculum are:
+- The first BLU will already introduce the time series fundamental concepts, these will be the use cases of the pandas functions. Instead of separating them, like last year.
+- The multi index notebook on the fist BLU will be reviewed to see if we can simplify it.
+- The second BLU will now cover everything about the classical models and the third BLU everything about the ML-based approach.
+
 
 ## 2 Curriculum
 
@@ -33,18 +34,20 @@
 ##### Main topics
 
 1. Basic Pandas for Time Series
-2. Time Series Concepts
-3. Advanced Pandas for Time Series (Optional)  
+2. Advanced Pandas for Time Series
+3. Time Series Concepts
+
 
 ##### Detailed curriculum
 1. Basic Pandas for Time Series
   - Essential functions like pd.to_datetime(), loc[date1:date2], resample
-2. Time Series Concepts
+2. Advanced Pandas for Time Series
+  - Multi-index, slicing, unstack, etc.
+3. Time Series Concepts
   - Time Series decomposition (Trend, Seasonality, Residual)
   - Introduce rolling to get time series trend
   - Introduce shift to get time series lags for seasonality
-3. Advanced Pandas for Time Series (Optional)
-  - Multi-index, slicing, unstack, etc.
+
 
 
 ### BLU05
@@ -57,7 +60,7 @@
 3. Exogeneous Variables
 
 ##### Detailed curriculum
-1. Autocorrelation -> Make connection with pandas diff() for lags. Basically, this automates that search.
+1. Autocorrelation -> Make connection with pandas shift() for lags. Basically, this automates that search.
   - ACF
   - PACF
   - Stationarity (diff + log)
