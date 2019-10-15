@@ -37,15 +37,15 @@ The main changes, in principal, are:
 ##### Detailed curriculum
 
 1. Introduction to recommender systems
-  1. Intuition
-  2. Components of a recommender system
-  3. Taxonomy of recommender systems
-  4. ~~Evaluation~~
+    1. Intuition
+    2. Components of a recommender system 
+    3. Taxonomy of recommender systems
+    4. ~~Evaluation~~
 2. Ratings matrix
-  1. Select an open dataset (representative of the hackathon, to avoid surprises)
-  2. Intuition about sparsity (i.e., most users don't interact with most items, leading to many empty entires)
-  3. Create a ratings matrix as a sparse matrix using `scipy` (pick the type of sparse matrix that works best, ignore the others)
-2. Generic (or non-personalised) recommender systems, in practice
+    1. Select an open dataset (representative of the hackathon, to avoid surprises)
+    2. Intuition about sparsity (i.e., most users don't interact with most items, leading to many empty entires)
+    3. Create a ratings matrix as a sparse matrix using `scipy` (pick the type that works best)
+3. Generic (or non-personalised) recommender systems, in practice
   1. What are they (with practical examples, in the real-world)
   2. Implement all of these in the selected dataset
     1. Summary statistics
@@ -55,7 +55,7 @@ The main changes, in principal, are:
     2. Association rules
         1. You bought X, may be interested in Y
         2. Banana trap (or overwhelming effect)
-  3. ~~Evaluate the different generic recommender systems~~.
+    3. ~~Evaluate the different generic recommender systems~~.
 
 ### BLU11
 #### Personalised recommender systems
@@ -67,24 +67,23 @@ The main changes, in principal, are:
 
 ##### Detailed curriculum
 1. Collaborative-filtering
-  1. Intuition and real-world use-cases
-  2. Cosine distance
-    1. For two users or items, `scipy.spatial.distance.cosine`
-    2. For all users or items, `sklearn.metrics.pairwise_distances`
-  3. Making recommendations
-    1. Predicting the rating of an item for an user
+    1. Intuition and real-world use-cases
+    2. Cosine distance
+        1. For two users or items, `scipy.spatial.distance.cosine`
+        2. For all users or items, `sklearn.metrics.pairwise_distances`
+    3. Making recommendations
+        1. Predicting the rating of an item for an user
     2. Completing the ratings matrix
-      1. User-users
-      2. Item-item
+        1. User-users
+        2. Item-item
     3. Top-N recommendations
 2. Content-based filtering
-  1. Intuition and real-world use-cases
-  2. User-tags matrix
-  3. Making recommendations
+    1. Intuition and real-world use-cases
+    2. User-tags matrix
+    3. Making recommendations
 3. Dimensionality reduction
-  1. `sklearn.decomposition.PCA`
-  2. Making recommendations.
-
+    1. `sklearn.decomposition.PCA`
+    2. Making recommendations.
 
 ### BLU12
 
