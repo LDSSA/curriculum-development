@@ -84,6 +84,7 @@ The main changes, in principal, are:
 3. Dimensionality reduction
     1. `sklearn.decomposition.PCA`
     2. Making recommendations.
+4. When to use what (no sense of progression)
 
 ### BLU12
 
