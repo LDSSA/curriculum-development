@@ -17,9 +17,9 @@ The main changes, in principal, are:
 
 | BLU   | Name | Specialisation | Status   | Content           |
 |-------|------|----------------|----------|-------------------|
-| BLU04 | Non-Personalised | Recommender Systems | Proposed | [Content](#blu10) |
-| BLU05 | Personalised  | Recommender Systems | Proposed | [Content](#blu05) |
-| BLU06 | Workflow | Recommender Systems | Proposed | [Content](#blu06) |
+| BLU10 | Non-Personalised | Recommender Systems | Proposed | [Content](#blu10) |
+| BLU11 | Personalised  | Recommender Systems | Proposed | [Content](#blu11) |
+| BLU12 | Workflow | Recommender Systems | Proposed | [Content](#blu12) |
 
 ## Contents
 
