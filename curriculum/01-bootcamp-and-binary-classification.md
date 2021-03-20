@@ -832,3 +832,4 @@ Key concepts for the basic practice of Data Science and Machine Learning:
 5. ~~Bootstrapping~~
 6. Bayesian Optimization for Hyperparameter Tuning
 7. Feature Unions
+8. Evaluation of multi-class classification 
