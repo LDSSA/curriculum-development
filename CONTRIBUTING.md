@@ -22,7 +22,7 @@ LDSSA's [Teaching Philosophy](https://github.com/LDSSA/wiki/wiki/Teaching-Philos
 
 Please start by discussing the change via [issue](https://github.com/LDSSA/curriculum-development/issues).
 
-The curriculum team will review issues and try to assign a due date for the issue to be resolved.
+The curriculum team will review issues, assign them to the relevant people and establish a due date for the issue to be resolved.
 
 ## Pull Request Process
 
