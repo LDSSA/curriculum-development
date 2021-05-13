@@ -9,27 +9,30 @@
 
 ## 1 Curriculum Overview
 
-| SLU   | Name                                     | Core Competency        | Status   | Content           | Presented at   | Required |
-|-------|------------------------------------------|------------------------|----------|-------------------|----------------|----------|
-| SLU01 | Pandas 101                               | Data Skills & Analysis | Existing | [Content](#slu01) | Admissions     | Yes      |
-| SLU02 | Subsetting Data in Pandas                | Data Skills & Analysis | Existing | [Content](#slu02) | Admissions     | Yes      |
-| SLU03 | Visualization with Pandas & Matplotlib   | Data Skills & Analysis | Existing | [Content](#slu03) | Admissions     | Yes      |
-| SLU04 | Basic Stats with Pandas                  | Data Skills & Analysis | Existing | [Content](#slu04) | Bootcamp Day 1 | Yes      |
-| SLU05 | Covariance & Correlation                 | Data Skills & Analysis | Existing | [Content](#slu05) | Bootcamp Day 1 | Yes      |
-| SLU06 | Dealing with Data Problems               | Data Skills & Analysis | To Adapt | [Content](#slu06) | Bootcamp Day 1 | Yes      |
-| SLU07 | Regression with Linear Regression        | Learning Algorithms    | Existing | [Content](#slu07) | Bootcamp Day 1 | Yes      |
-| SLU08 | Metrics for Regression                   | ML Fundamentals        | Existing | [Content](#slu10) | Bootcamp Day 1 | Yes      |
-| SLU09 | Classification with Logistic Regression  | Learning Algorithms    | Existing | [Content](#slu08) | Bootcamp Day 1 | Yes      |
-| SLU10 | Metrics for Classification               | ML Fundamentals        | Existing | [Content](#slu09) | Bootcamp Day 1 | Yes      |
-| SLU11 | Tree-Based Models                        | Learning Algorithms    | Existing | [Content](#slu10) | Bootcamp Day 2 | Yes      |
-| SLU12 | Feature Engineering (aka Real Wold Data) | Data Skills & Analysis | Existing | [Content](#slu11) | Bootcamp Day 2 | Yes      |
-| SLU13 | Model Selection & Overfitting            | ML Fundamentals        | To Adapt | [Content](#slu12) | Bootcamp Day 2 | Yes      |
-| SLU14 | Data Sufficiency & Selection             | Data Skills & Analysis | To Adapt | [Content](#slu13) | Bootcamp Day 2 | Yes      |
-| SLU15 | Ethics & Fairness                        | Data Skills & Analysis | Existing | [Content](#slu14) | Bootcamp Day 2 | Yes      |
-| SLU16 | Hyperparameter Tuning                    | ML Fundamentals        | Existing | [Content](#slu15) | Bootcamp Day 2 | Yes      |
-| SLU17 | Workflow                                 | ML Fundamentals        | To Adapt | [Content](#slu16) | Bootcamp Day 2 | Yes      |
-| SLU18 | Support Vector Machines (SVM)            | Learning Algorithms    | New      | [Content](#slu17) | Not presented  | No       |
-| SLU19 | k-Nearest Neighbors (kNN)                | Learning Algorithms    | New      | [Content](#slu18) | Not presented  | No       |
+| SLU   | Name                                     | Core Competency        | Status     | Content           | Presented at   | Required |
+|-------|------------------------------------------|------------------------|------------|-------------------|----------------|----------|
+| SLU01 | Pandas 101                               | Data Skills & Analysis | Existing   | [Content](#slu01) | Admissions     | Yes      |
+| SLU02 | Subsetting Data in Pandas                | Data Skills & Analysis | Existing   | [Content](#slu02) | Admissions     | Yes      |
+| SLU03 | Visualization with Pandas & Matplotlib   | Data Skills & Analysis | Existing   | [Content](#slu03) | Admissions     | Yes      |
+| SLU04 | Basic Stats with Pandas                  | Data Skills & Analysis | Existing   | [Content](#slu04) | Bootcamp Day 1 | Yes      |
+| SLU05 | Covariance & Correlation                 | Data Skills & Analysis | Existing   | [Content](#slu05) | Bootcamp Day 1 | Yes      |
+| SLU06 | Dealing with Data Problems               | Data Skills & Analysis | To Adapt   | [Content](#slu06) | Bootcamp Day 1 | Yes      |
+| SLU07 | Regression with Linear Regression        | Learning Algorithms    | Existing   | [Content](#slu07) | Bootcamp Day 1 | Yes      |
+| SLU08 | Metrics for Regression                   | ML Fundamentals        | Existing   | [Content](#slu10) | Bootcamp Day 1 | Yes      |
+| SLU09 | Classification with Logistic Regression  | Learning Algorithms    | Existing   | [Content](#slu08) | Bootcamp Day 1 | Yes      |
+| SLU10 | Metrics for Classification               | ML Fundamentals        | Existing   | [Content](#slu09) | Bootcamp Day 1 | Yes      |
+| SLU11 | Tree-Based Models                        | Learning Algorithms    | Existing   | [Content](#slu10) | Bootcamp Day 2 | Yes      |
+| SLU12 | Feature Engineering (aka Real Wold Data) | Data Skills & Analysis | Existing   | [Content](#slu11) | Bootcamp Day 2 | Yes      |
+| SLU13 | Bias-Variance tradeoff & Model Selection | ML Fundamentals        | To Adapt*  | [Content](#slu12) | Bootcamp Day 2 | Yes      |
+| SLU14 | Model complexity & Overfitting           | Data Skills & Analysis | To Adapt** | [Content](#slu13) | Bootcamp Day 2 | Yes      |
+| SLU15 | Ethics & Fairness                        | Data Skills & Analysis | Existing   | [Content](#slu14) | Bootcamp Day 2 | Yes      |
+| SLU16 | Hyperparameter Tuning                    | ML Fundamentals        | Existing   | [Content](#slu15) | Bootcamp Day 2 | Yes      |
+| SLU17 | Workflow                                 | ML Fundamentals        | To Adapt   | [Content](#slu16) | Bootcamp Day 2 | Yes      |
+| SLU18 | Support Vector Machines (SVM)            | Learning Algorithms    | New        | [Content](#slu17) | Not presented  | No       |
+| SLU19 | k-Nearest Neighbors (kNN)                | Learning Algorithms    | New        | [Content](#slu18) | Not presented  | No       |
+
+(\*) To adapt from previous SLU09 - Model Selection & Overfitting
+(\*\*) To adapt from previous SLU16 - Data Sufficiency & Selection
 
 ## 2 Competencies
 
@@ -550,7 +553,7 @@ Key concepts for the basic practice of Data Science and Machine Learning:
 
 ### SLU13
 
-#### Bias-Variance trade-off & Model Selection
+#### Bias-Variance tradeoff & Model Selection
 
 ##### Main topics
 
@@ -565,7 +568,7 @@ Key concepts for the basic practice of Data Science and Machine Learning:
         1. Bias
         2. Variance
         3. Irreducible error
-    2. Bias-variance trade-off
+    2. Bias-variance tradeoff
     3. Sources of complexity
 2. Model Selection
     1. Offline evaluation
