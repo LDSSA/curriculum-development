@@ -18,18 +18,18 @@
 | SLU05 | Covariance & Correlation                 | Data Skills & Analysis | Existing   | [Content](#slu05) | Bootcamp Day 1 | Yes      |
 | SLU06 | Dealing with Data Problems               | Data Skills & Analysis | To Adapt   | [Content](#slu06) | Bootcamp Day 1 | Yes      |
 | SLU07 | Regression with Linear Regression        | Learning Algorithms    | Existing   | [Content](#slu07) | Bootcamp Day 1 | Yes      |
-| SLU08 | Metrics for Regression                   | ML Fundamentals        | Existing   | [Content](#slu10) | Bootcamp Day 1 | Yes      |
-| SLU09 | Classification with Logistic Regression  | Learning Algorithms    | Existing   | [Content](#slu08) | Bootcamp Day 1 | Yes      |
-| SLU10 | Metrics for Classification               | ML Fundamentals        | Existing   | [Content](#slu09) | Bootcamp Day 1 | Yes      |
-| SLU11 | Tree-Based Models                        | Learning Algorithms    | Existing   | [Content](#slu10) | Bootcamp Day 2 | Yes      |
-| SLU12 | Feature Engineering (aka Real Wold Data) | Data Skills & Analysis | Existing   | [Content](#slu11) | Bootcamp Day 2 | Yes      |
-| SLU13 | Bias-Variance tradeoff & Model Selection | ML Fundamentals        | To Adapt*  | [Content](#slu12) | Bootcamp Day 2 | Yes      |
-| SLU14 | Model complexity & Overfitting           | Data Skills & Analysis | To Adapt** | [Content](#slu13) | Bootcamp Day 2 | Yes      |
-| SLU15 | Ethics & Fairness                        | Data Skills & Analysis | Existing   | [Content](#slu14) | Bootcamp Day 2 | Yes      |
-| SLU16 | Hyperparameter Tuning                    | ML Fundamentals        | Existing   | [Content](#slu15) | Bootcamp Day 2 | Yes      |
-| SLU17 | Workflow                                 | ML Fundamentals        | To Adapt   | [Content](#slu16) | Bootcamp Day 2 | Yes      |
-| SLU18 | Support Vector Machines (SVM)            | Learning Algorithms    | New        | [Content](#slu17) | Not presented  | No       |
-| SLU19 | k-Nearest Neighbors (kNN)                | Learning Algorithms    | New        | [Content](#slu18) | Not presented  | No       |
+| SLU08 | Metrics for Regression                   | ML Fundamentals        | Existing   | [Content](#slu8) | Bootcamp Day 1 | Yes      |
+| SLU09 | Classification with Logistic Regression  | Learning Algorithms    | Existing   | [Content](#slu09) | Bootcamp Day 1 | Yes      |
+| SLU10 | Metrics for Classification               | ML Fundamentals        | Existing   | [Content](#slu10) | Bootcamp Day 1 | Yes      |
+| SLU11 | Tree-Based Models                        | Learning Algorithms    | Existing   | [Content](#slu11) | Bootcamp Day 2 | Yes      |
+| SLU12 | Feature Engineering (aka Real Wold Data) | Data Skills & Analysis | Existing   | [Content](#slu12) | Bootcamp Day 2 | Yes      |
+| SLU13 | Bias-Variance tradeoff & Model Selection | ML Fundamentals        | To Adapt*  | [Content](#slu13) | Bootcamp Day 2 | Yes      |
+| SLU14 | Model complexity & Overfitting           | Data Skills & Analysis | To Adapt** | [Content](#slu14) | Bootcamp Day 2 | Yes      |
+| SLU15 | Hyperparameter Tuning                    | ML Fundamentals        | Existing   | [Content](#slu15) | Bootcamp Day 2 | Yes      |
+| SLU16 | Workflow                                 | ML Fundamentals        | To Adapt   | [Content](#slu16) | Bootcamp Day 2 | Yes      |
+| SLU17 | Ethics & Fairness                        | Data Skills & Analysis | Existing   | [Content](#slu17) | Bootcamp Day 2 | Yes      |
+| SLU18 | Support Vector Machines (SVM)            | Learning Algorithms    | To Adapt      | [Content](#slu18) | Not presented  | No       |
+| SLU19 | k-Nearest Neighbors (kNN)                | Learning Algorithms    | To Adapt      | [Content](#slu19) | Not presented  | No       |
 
 (\*) To adapt from previous SLU09 - Model Selection & Overfitting
 (\*\*) To adapt from previous SLU16 - Data Sufficiency & Selection
