@@ -9,28 +9,30 @@
 
 ## 1 Curriculum Overview
 
-| SLU   | Name                                     | Core Competency        | Status   | Content           |
-|-------|------------------------------------------|------------------------|----------|-------------------|
-|       | Notation & Definitions                   |                        | New      |                   |
-| SLU01 | Pandas 101                               | Data Skills & Analysis | To Adapt | [Content](#slu01) |
-| SLU02 | Subsetting Data in Pandas                | Data Skills & Analysis | To Adapt | [Content](#slu02) |
-| SLU03 | Visualization with Pandas & Matplotlib   | Data Skills & Analysis | Existing | [Content](#slu03) |
-| SLU04 | Basic Stats with Pandas                  | Data Skills & Analysis | To Adapt | [Content](#slu04) |
-| SLU05 | Covariance & Correlation                 | Data Skills & Analysis | Existing | [Content](#slu05) |
-| SLU06 | Dealing with Data Problems               | Data Skills & Analysis | Existing | [Content](#slu06) |
-| SLU07 | Regression with Linear Regression        | Learning Algorithms    | Existing | [Content](#slu07) |
-| SLU08 | Classification with Logistic Regression  | Learning Algorithms    | Existing | [Content](#slu08) |
-| SLU09 | Model Selection & Overfitting            | ML Fundamentals        | Existing | [Content](#slu09) |
-| SLU10 | Metrics for Regression                   | ML Fundamentals        | Existing | [Content](#slu10) |
-| SLU11 | Metrics for Classification               | ML Fundamentals        | Existing | [Content](#slu11) |
-| SLU12 | Support Vector Machines (SVM)            | Learning Algorithms    | New      | [Content](#slu12) |
-| SLU13 | Tree-Based Models                        | Learning Algorithms    | New      | [Content](#slu13) |
-| SLU14 | k-Nearest Neighbors (kNN)                | Learning Algorithms    | New      | [Content](#slu14) |
-| SLU15 | Feature Engineering (aka Real Wold Data) | Data Skills & Analysis | Existing | [Content](#slu15) |
-| SLU16 | Data Sufficiency & Selection             | Data Skills & Analysis | Existing | [Content](#slu16) |
-| SLU17 | Ethics & Fairness                        | Data Skills & Analysis | New      | [Content](#slu17) |
-| SLU18 | Hyperparameter Tuning                    | ML Fundamentals        | Existing | [Content](#slu18) |
-| SLU19 | Workflow                                 |                        | Existing | [Content](#slu19) |
+| SLU   | Name                                     | Core Competency        | Status     | Content           | Presented at   | Required |
+|-------|------------------------------------------|------------------------|------------|-------------------|----------------|----------|
+| SLU01 | Pandas 101                               | Data Skills & Analysis | Existing   | [Content](#slu01) | Admissions     | Yes      |
+| SLU02 | Subsetting Data in Pandas                | Data Skills & Analysis | Existing   | [Content](#slu02) | Admissions     | Yes      |
+| SLU03 | Visualization with Pandas & Matplotlib   | Data Skills & Analysis | Existing   | [Content](#slu03) | Admissions     | Yes      |
+| SLU04 | Basic Stats with Pandas                  | Data Skills & Analysis | Existing   | [Content](#slu04) | Bootcamp Day 1 | Yes      |
+| SLU05 | Covariance & Correlation                 | Data Skills & Analysis | Existing   | [Content](#slu05) | Bootcamp Day 1 | Yes      |
+| SLU06 | Dealing with Data Problems               | Data Skills & Analysis | To Adapt   | [Content](#slu06) | Bootcamp Day 1 | Yes      |
+| SLU07 | Regression with Linear Regression        | Learning Algorithms    | Existing   | [Content](#slu07) | Bootcamp Day 1 | Yes      |
+| SLU08 | Metrics for Regression                   | ML Fundamentals        | Existing   | [Content](#slu8) | Bootcamp Day 1 | Yes      |
+| SLU09 | Classification with Logistic Regression  | Learning Algorithms    | Existing   | [Content](#slu09) | Bootcamp Day 1 | Yes      |
+| SLU10 | Metrics for Classification               | ML Fundamentals        | Existing   | [Content](#slu10) | Bootcamp Day 1 | Yes      |
+| SLU11 | Tree-Based Models                        | Learning Algorithms    | Existing   | [Content](#slu11) | Bootcamp Day 2 | Yes      |
+| SLU12 | Feature Engineering (aka Real Wold Data) | Data Skills & Analysis | Existing   | [Content](#slu12) | Bootcamp Day 2 | Yes      |
+| SLU13 | Bias-Variance tradeoff & Model Selection | ML Fundamentals        | To Adapt*  | [Content](#slu13) | Bootcamp Day 2 | Yes      |
+| SLU14 | Model complexity & Overfitting           | Data Skills & Analysis | To Adapt** | [Content](#slu14) | Bootcamp Day 2 | Yes      |
+| SLU15 | Hyperparameter Tuning                    | ML Fundamentals        | Existing   | [Content](#slu15) | Bootcamp Day 2 | Yes      |
+| SLU16 | Workflow                                 | ML Fundamentals        | To Adapt   | [Content](#slu16) | Bootcamp Day 2 | Yes      |
+| SLU17 | Ethics & Fairness                        | Data Skills & Analysis | Existing   | [Content](#slu17) | Bootcamp Day 2 | Yes      |
+| SLU18 | Support Vector Machines (SVM)            | Learning Algorithms    | To Adapt      | [Content](#slu18) | Not presented  | No       |
+| SLU19 | k-Nearest Neighbors (kNN)                | Learning Algorithms    | To Adapt      | [Content](#slu19) | Not presented  | No       |
+
+(\*) To adapt from previous SLU09 - Model Selection & Overfitting
+(\*\*) To adapt from previous SLU16 - Data Sufficiency & Selection
 
 ## 2 Competencies
 
@@ -58,7 +60,8 @@ Key concepts for the basic practice of Data Science and Machine Learning:
 
 * Over- and under-fitting
 * Evaluation Metrics
-* Hyperparameter tuning.
+* Hyperparameter tuning
+* Workflow.
 
 ## 3 Contents
 
@@ -288,17 +291,12 @@ Key concepts for the basic practice of Data Science and Machine Learning:
 
 ##### Main topics
 
-1. Tidy Data
-2. Data Entry Problems
-3. Imputation of Missing Values
+1. Data Entry Problems
+2. Imputation of Missing Values
 
 ##### Detailed curriculum
 
-1. Tidy Data (see [this](https://www.jstatsoft.org/index.php/jss/article/view/v059i10/v59i10.pdf) and [this](http://courses.had.co.nz.s3-website-us-east-1.amazonaws.com/12-rice-bdsi/slides/07-tidy-data.pdf) for reference)
-    1. Each variable forms a column
-    2. Each observation forms a row
-    3. Each type of observational unit forms a table
-2. Data Entry Problems
+1. Data Entry Problems
     1. Unstructured Data
         1. Counts of unique elements
             1. `.value_counts()`
@@ -311,7 +309,7 @@ Key concepts for the basic practice of Data Science and Machine Learning:
     2. Duplicated Entries
         1. Finding duplicated entries with `.duplicated()`
         2. Remove duplicates with `drop_duplicates()`
-3. Imputation of Missing Values
+2. Imputation of Missing Values
     1. `.value_counts(dropna=False)`
     2. `.isnull()`
     3. Remove missing values with `.dropna()`
@@ -362,84 +360,6 @@ Key concepts for the basic practice of Data Science and Machine Learning:
 
 ### SLU08
 
-#### Classification with Logistic Regression
-
-##### Main topics
-
-1. Practical Introduction to Classification
-2. Classification with Logistic Regression
-3. Using Logistic Regression
-
-##### Detailed curriculum
-
-1. Practical Introduction to Classification
-    1. Classification is the problem of assigning one of a finite set of classes
-    2. Binary classification
-    3. Multiclass classification
-2. Classification with Logistic Regression
-    1. Applying the standard logistic or sigmoid function
-        1. Output can be interpreted as the probability of the positive label
-        2. Defining a threshold
-    2. Learning the parameters in Logistic Regression
-        1. Objective: maximum likelihood, adapted to log-likelihood
-        2. Solver: gradient descent
-            1. Intro to batch gradient descent
-            2. Point to external resources as optional, advanced material
-3. Using Logistic Regression
-    1. Practical strengths
-    2. `sklearn.linear_model.LogisticRegression`
-        1. `.fit(X, y)`
-        2. `.predict()`
-        3. `.predict_proba()`
-
----
-
-### SLU09
-
-#### Model Selection & Overfitting
-
-##### Main topics
-
-1. Generalization Error
-2. Model Selection
-3. Regularized Linear Regression
-
-##### Detailed curriculum
-
-1. Generalization Error
-    1. Decomposition
-        1. Bias
-        2. Variance
-        3. Irreducible error
-    2. Bias-variance trade-off
-    3. Sources of complexity
-2. Model Selection
-    1. Offline evaluation
-        1. Leave-one-out or hold-out method
-            1. `sklearn.model_selection.train_test_split`
-            2. In-sample or training error
-            3. Out-of-sample or testing error
-            4. Validation dataset
-            5. Evaluating overfitting and underfitting
-        2. K-Fold cross-validation
-            1. `sklearn.model_selection.cross_val_score`
-        3. Data leakage
-    2. Practical considerations
-        1. Training time
-        2. Prediction time
-3. Regularized Linear Models
-    1. Intuition and use-cases
-    2. Lasso, or L1
-        1. `sklearn.linear_model.Lasso`
-    3. Ridge, or L2
-        1. `sklearn.linear_model.Ridge`
-    4. Elastic Net
-        1. `sklearn.linear_model.ElasticNet`
-
----
-
-### SLU10
-
 #### Metrics for Regression
 
 ##### Main topics
@@ -472,7 +392,41 @@ Key concepts for the basic practice of Data Science and Machine Learning:
 
 ---
 
-### SLU11
+### SLU09
+
+#### Classification with Logistic Regression
+
+##### Main topics
+
+1. Practical Introduction to Classification
+2. Classification with Logistic Regression
+3. Using Logistic Regression
+
+##### Detailed curriculum
+
+1. Practical Introduction to Classification
+    1. Classification is the problem of assigning one of a finite set of classes
+    2. Binary classification
+    3. Multiclass classification
+2. Classification with Logistic Regression
+    1. Applying the standard logistic or sigmoid function
+        1. Output can be interpreted as the probability of the positive label
+        2. Defining a threshold
+    2. Learning the parameters in Logistic Regression
+        1. Objective: maximum likelihood, adapted to log-likelihood
+        2. Solver: gradient descent
+            1. Intro to batch gradient descent
+            2. Point to external resources as optional, advanced material
+3. Using Logistic Regression
+    1. Practical strengths
+    2. `sklearn.linear_model.LogisticRegression`
+        1. `.fit(X, y)`
+        2. `.predict()`
+        3. `.predict_proba()`
+
+---
+
+### SLU10
 
 #### Metrics for Classification
 
@@ -510,36 +464,7 @@ Key concepts for the basic practice of Data Science and Machine Learning:
 
 ---
 
-### SLU12
-
-#### Support Vector Machines (SVM)
-
-##### Main topics
-
-1. Understanding the Decision Boundary
-2. Implementing SVMs
-3. Using SVMs
-
-##### Detailed curriculum
-
-1. Understanding the Decision Boundary
-    1. Margin & Generalization
-    2. Linearly Separable Classes
-    3. Non-Linear Decision Boundaries
-2. Implementing SVMs
-    1. Linear Model
-        1. Hard-margin SVM
-        2. Dealing with Noise
-            1. Soft-margin SVM: misclassification and the `C` penalty
-    2. Inherent Non-Linearity
-        1. Kernel trick
-        2. Kernels or kernel functions
-3. Using SVMs
-    1. Practical strengths
-    2. `sklearn.svm.SVC`
-    3. `sklearn.svm.SVR`
-
-### SLU13
+### SLU11
 
 #### Tree-Based Models
 
@@ -572,46 +497,7 @@ Key concepts for the basic practice of Data Science and Machine Learning:
 
 ---
 
-### SLU14
-
-#### k-Nearest Neighbors (kNN)
-
-##### Main topics
-
-1. Key Differentiators of kNN
-2. A Primer on Distance
-3. Using kNN
-
-##### Detailed curriculum
-
-1. Key Differentiators of kNN
-    1. Non-Parametric
-    2. Lazy
-    3. Reliance on similarity as defined by closeness, i.e., distance
-    4. kNN in a nutshell
-        1. Doesn't learn or build a model
-            1. No hypothesis function
-            2. No learned weights
-            3. No discarding the training data after training
-            4. No training, one could say
-        2. Instead, keeps all the training data in memory
-        3. Predictions use the *k* closest examples to return a majority label
-            1. Implications of *k*
-2. A Primer on Distance
-    1. Distance metrics
-        1. Euclidean distance
-        2. Dot-product
-        3. Cosine distances (the most used, in practice)
-    2. Unexpected behaviour in high dimensions, i.e., course of dimensionality
-3. Using kNN
-    1. Practical strenghts
-        1. Despite slow prediction time
-    2. `sklearn.neighbors.KNeighborsClassifier`
-    3. `sklearn.neighbors.KNeighborsRegressor`
-
----
-
-### SLU15
+### SLU12
 
 #### Feature Engineering (aka Real World Data)
 
@@ -665,36 +551,39 @@ Key concepts for the basic practice of Data Science and Machine Learning:
 
 ---
 
-### SLU16
+### SLU13
 
-#### Data Sufficiency & Selection
+#### Bias-Variance tradeoff & Model Selection
 
 ##### Main topics
 
-1. Why Feature Selection
-2. Techniques for Feature Selection
+1. Generalization Error
+2. Model Selection
 3. Learning Curves
 
-#### Detailed curriculum
+##### Detailed curriculum
 
-1. Why Feature Selection
-    1. Why having more features is not necessarily better
-        1. Lack of interpretability
-        2. Unexpected behaviour
-        3. Overfitting, i.e., poor performance
-        4. Training and prediction times
-    2. Heuristic: number of features shouldn't exceed 20% of the number of observations
-2. Techniques for Feature Selection
-    1. Univariate selection
-        1. Intuition, using Pandas
-        2. `sklearn.feature_selection.SelectKBest`
-    2. Correlation
-        1. Identify the features that correlated the most with the target variable
-        2. Correlated features
-    3. Feature importances
-        1. `.feature_importances_` for tree-based models
-        2. `.coef_` for linear models using previously scaled features
-        3. `sklearn.feature_selection.SelectFromModel`
+1. Generalization Error
+    1. Decomposition
+        1. Bias
+        2. Variance
+        3. Irreducible error
+    2. Bias-variance tradeoff
+    3. Sources of complexity
+2. Model Selection
+    1. Offline evaluation
+        1. Leave-one-out or hold-out method
+            1. `sklearn.model_selection.train_test_split`
+            2. In-sample or training error
+            3. Out-of-sample or testing error
+            4. Validation dataset
+            5. Evaluating overfitting and underfitting
+        2. K-Fold cross-validation
+            1. `sklearn.model_selection.cross_val_score`
+        3. Data leakage
+    2. Practical considerations
+        1. Training time
+        2. Prediction time
 3. Learning Curves
     1. Debugging bias and variance, i.e., under- and overfitting
     2. Would the model benefit from additional data
@@ -703,7 +592,52 @@ Key concepts for the basic practice of Data Science and Machine Learning:
 
 ---
 
-### SLU17
+### SLU14
+
+#### Model complexity & Overfitting
+
+##### Main topics
+
+1. Feature Selection
+2. 
+3. Regularized Linear Regression
+
+#### Detailed curriculum
+
+1. Feature Selection
+    1. Why Feature Selection
+        1. Why having more features is not necessarily better
+            1. Lack of interpretability
+            2. Unexpected behaviour
+            3. Overfitting, i.e., poor performance
+            4. Training and prediction times
+        2. Heuristic: number of features shouldn't exceed 20% of the number of observations
+    2. Techniques for Feature Selection
+        1. Univariate selection
+            1. Intuition, using Pandas
+            2. `sklearn.feature_selection.SelectKBest`
+        2. Correlation
+            1. Identify the features that correlated the most with the target variable
+            2. Correlated features
+        3. Feature importances
+            1. `.feature_importances_` for tree-based models
+            2. `.coef_` for linear models using previously scaled features
+            3. `sklearn.feature_selection.SelectFromModel`
+2. Regularization
+    1. On Linear Models
+        1. Intuition and use-cases
+        2. Lasso, or L1
+            1. `sklearn.linear_model.Lasso`
+        3. Ridge, or L2
+            1. `sklearn.linear_model.Ridge`
+        4. Elastic Net
+            1. `sklearn.linear_model.ElasticNet`
+    2. On Tree Based Models
+3. Over and under sampling
+
+---
+
+### SLU15
 
 #### Ethics & Fairness
 
@@ -741,7 +675,7 @@ Key concepts for the basic practice of Data Science and Machine Learning:
 
 ---
 
-### SLU18
+### SLU16
 
 #### Hyperparameter Tuning
 
@@ -771,7 +705,7 @@ Key concepts for the basic practice of Data Science and Machine Learning:
 
 ---
 
-### SLU19
+### SLU17
 
 #### Basic Workflow
 
@@ -796,9 +730,11 @@ Key concepts for the basic practice of Data Science and Machine Learning:
 2. Workflow Tips
     1. Inspect the data
     2. Establish a simple baseline as fast as possible
-    3. Increase complexity incrementally
-    4. Don't overuse the test set, or you risk overfitting to it
-    5. Keep training and test pipelines consistency at all times
+        1. Dummy Classifier
+        2. Dummy Regressor
+    4. Increase complexity incrementally
+    5. Don't overuse the test set, or you risk overfitting to it
+    6. Keep training and test pipelines consistency at all times
         1. Learn parameters on training data, e.g., mean and variance for standardization
             1. e.g., `.fit()`
         2. Apply the exact same transformations, with the same parameters, on train and test data
@@ -818,18 +754,87 @@ Key concepts for the basic practice of Data Science and Machine Learning:
             1. `sklearn.base.BaseEstimator`
             2. `sklearn.base.TransformerMixin`
 
+---
+
+### SLU18
+
+#### Support Vector Machines (SVM)
+
+##### Main topics
+
+1. Understanding the Decision Boundary
+2. Implementing SVMs
+3. Using SVMs
+
+##### Detailed curriculum
+
+1. Understanding the Decision Boundary
+    1. Margin & Generalization
+    2. Linearly Separable Classes
+    3. Non-Linear Decision Boundaries
+2. Implementing SVMs
+    1. Linear Model
+        1. Hard-margin SVM
+        2. Dealing with Noise
+            1. Soft-margin SVM: misclassification and the `C` penalty
+    2. Inherent Non-Linearity
+        1. Kernel trick
+        2. Kernels or kernel functions
+3. Using SVMs
+    1. Practical strengths
+    2. `sklearn.svm.SVC`
+    3. `sklearn.svm.SVR`
+
+---
+
+### SLU19
+
+#### k-Nearest Neighbors (kNN)
+
+##### Main topics
+
+1. Key Differentiators of kNN
+2. A Primer on Distance
+3. Using kNN
+
+##### Detailed curriculum
+
+1. Key Differentiators of kNN
+    1. Non-Parametric
+    2. Lazy
+    3. Reliance on similarity as defined by closeness, i.e., distance
+    4. kNN in a nutshell
+        1. Doesn't learn or build a model
+            1. No hypothesis function
+            2. No learned weights
+            3. No discarding the training data after training
+            4. No training, one could say
+        2. Instead, keeps all the training data in memory
+        3. Predictions use the *k* closest examples to return a majority label
+            1. Implications of *k*
+2. A Primer on Distance
+    1. Distance metrics
+        1. Euclidean distance
+        2. Dot-product
+        3. Cosine distances (the most used, in practice)
+    2. Unexpected behaviour in high dimensions, i.e., course of dimensionality
+3. Using kNN
+    1. Practical strenghts
+        1. Despite slow prediction time
+    2. `sklearn.neighbors.KNeighborsClassifier`
+    3. `sklearn.neighbors.KNeighborsRegressor`
+
+
 ## 4 Topics Not Covered
 
 1. Pandas
     1. Method chaining
-    2. Multi-Index and Advanced Indexing
-    3. Merging, joining, and concatenating
+    2. Multi-Index and Advanced Indexing (covered in Time Series specialisation)
+    3. Merging, joining, and concatenating (covered in Data Wrangling specialisation)
     4. Split-apply-combine
     5. `.pop()`
-2. ~~Regularization~~
-3. ~~Gradient Descent~~
-4. ~~Leakage~~
-5. ~~Bootstrapping~~
-6. Bayesian Optimization for Hyperparameter Tuning
-7. Feature Unions
-8. Evaluation of multi-class classification 
+2. Gradient Descent
+3. Leakage
+4. Bayesian Optimization for Hyperparameter Tuning
+5. Feature Unions
+6. Evaluation of multi-class classification
