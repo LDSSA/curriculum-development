@@ -51,6 +51,8 @@ How to make a scikit model available to the world, serve prediction requests and
    2. Heroku CLI
    3. App deployment
    4. Endpoint testing
+      1. Test predictions with predict/
+      2. Test db storage with retrieve/
    5. Common problems
 
 ### BLU14
@@ -64,6 +66,7 @@ How to deploy a model in the wild.
 1. Formalizing client requirements
 2. Dealing with unexpected inputs
 3. Uptime and surviving failures
+4. (Optional) Heroku guides: check logs, reset app, restart db
 
 ##### Detailed curriculum
 
@@ -72,6 +75,8 @@ How to deploy a model in the wild.
     1. Expectation vs reality when dealing with clients
     2. Converting business requirements to technical metrics
     3. Fairness & privacy requirements, model prioritization
+    4. Technical architecture diagram (e.g. connections between database, webserver, endpoints, etc.)
+    5. Threshold tuning meets business requirements
 
 2. Dealing with unexpected inputs
 
@@ -87,6 +92,12 @@ How to deploy a model in the wild.
     4. Logging, Metrics, Monitoring and Alerting
     5. Testing (unit test, test-driven development)
 
+4. Heroku guides (Optional for students, in markdown)
+   1. Restart the app
+   2. Reset the database
+   3. Checking logs
+   4. Retrieiving data (e.g. DBeaver, dataclip feature in Heroku)
+
 ### BLU15
 
 #### Model CSI
@@ -95,37 +106,37 @@ How to diagnose, debug and redeploy an existing model.
 
 #### Main topics
 
-1. Need for retraining
-2. Measuring performance over time
-3. Model retraining
-4. Model diagnosing
-5. Calibrating and fixing model problems
-6. Model redeployment
+1. Model investigation
+2. Retraining and Redeployment
 
 ##### Detailed curriculum
 
-1. Need for retraining
-   1. Drifts: data (input), label (outputs) and concept (relation)
-   2. Robustness
-   3. Ground truth unavailability
+1. Model investigation
 
-2. Measuring performance over time
+   1. Model diagnosing
+   2. Need for retraining
+      1. Drifts: data (input), label (outputs) and concept (relation)
+      2. Robustness
+      3. Ground truth unavailability
 
-    1. Measuring data drifts
-    2. Measuring model drifts
+   3. Measuring performance over time
+      1. Measuring data drifts
+      2. Measuring model drifts
 
-3. Model retraining
+   4. Fixing model problems
 
-   1. Manual, periodic and continuous strategies
-   2. Choosing retraining data
+2. Retraining and Redeployment
 
-4. Model diagnosing
-5. Calibrating and fixing model problems
-6. Model redeployment
+   1. Model retraining
 
-    1. Identifying potential issues and risks
-    2. Production errors and logging
-    3. Preemptive vs reactive deployments
+      1. Manual, periodic and continuous strategies
+      2. Choosing retraining data
+
+   2. Model redeployment
+
+        1. Identifying potential issues and risks
+        2. Production errors and logging
+        3. Preemptive vs reactive deployments
 
 ## 3 Topics Not Covered
 
