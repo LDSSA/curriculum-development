@@ -66,7 +66,7 @@ How to deploy a model in the wild.
 1. Formalizing client requirements
 2. Dealing with unexpected inputs
 3. Uptime and surviving failures
-4. (Optional) Heroku guides: check logs, reset app, restart db
+4. (Optional) Heroku guides
 
 ##### Detailed curriculum
 
