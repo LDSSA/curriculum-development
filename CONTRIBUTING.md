@@ -7,16 +7,15 @@ Contributing Guidelines
 4. [Pull Request Process](#pull-request-process)
 5. [Approval Process](#approval-process)
 6. [Specialization Leads](#specialization-leads)
-7. [Milestones](#milestones)
-8. [Curriculum Team](#curriculum-development-team)
+7. [Curriculum Team](#curriculum-development-team)
 
 ## Code of Conduct
 
-LDSSA's [Code of Conduct](https://github.com/LDSSA/wiki/wiki/Code-of-Conduct).
+LDSSA's [Code of Conduct](https://ldssa.github.io/wiki/About%20us/Code-of-Conduct/).
 
 ## Teaching Philosophy
 
-LDSSA's [Teaching Philosophy](https://github.com/LDSSA/wiki/wiki/Teaching-Philosophy).
+LDSSA's [Teaching Philosophy](https://ldssa.github.io/wiki/About%20us/Teaching-Philosophy/).
 
 ## Contributing
 
@@ -51,4 +50,4 @@ Specialization Leads are responsible for refining the curriculum, as follows:
 
 | Team Member            | Email                       |
 |------------------------|-----------------------------|
-| Maria Dominguez (@chi) | maria@lisbondatascience.org |
+| Francisco Fonseca (@Fonseca) | ffonseca@lisbondatascience.org |
