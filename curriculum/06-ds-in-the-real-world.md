@@ -29,7 +29,7 @@ S06 prepares students to deliver, operate, monitor, and maintain a data-science 
 ## BLU15 — Model CSI
 
 - Diagnose model underperformance over time.
-- Distinguish data drift, target drift, and concept drift.
+- Distinguish data drift and concept drift, and monitor changes in the target distribution.
 - Work with robustness issues and unavailable or delayed ground truth.
 - Detect changes with distributions, histograms, Kolmogorov–Smirnov tests, target distributions, and correlations.
 - Choose manual, periodic, or continuous retraining strategies and suitable retraining data.
