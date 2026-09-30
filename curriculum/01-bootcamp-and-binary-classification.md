@@ -157,9 +157,9 @@ Students learn model evaluation, overfitting and underfitting, feature selection
 ### SLU17 — Ethics and Fairness
 
 - Consider informed consent, privacy, security, retention, and unintended use.
-- Recognize common sources of bias and proxy discrimination.
+- Recognize common sources of bias and evaluate model performance across relevant groups.
 - Assess fairness across relevant groups.
-- Communicate limitations and support explainability, reproducibility, reassessment, and rollback.
+- Communicate limitations and support auditability, reproducibility, reassessment, and rollback.
 
 ### SLU18 — Support Vector Machines (optional)
 

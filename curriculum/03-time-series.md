@@ -31,7 +31,7 @@ S03 introduces time-indexed data, classical forecasting models, and machine-lear
 
 - Formulate one-step and multi-step forecasting as regression problems.
 - Create differences, rolling statistics, date/time features, and circular encodings.
-- Add exogenous features and build preprocessing/model pipelines.
+- Add exogenous features and build preprocessing and feature-engineering workflows.
 - Tune and test models without leaking future information.
 - Use expanding- and sliding-window cross-validation.
 - Estimate and communicate forecast uncertainty.
